@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+}
+
+@theme {
+  --color-ma-red: #ef3050;
+}
+
+body {
+  color: var(--color-zinc-900);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+.bg-auth-background {
+  background:
+    radial-gradient(circle at 20% 80%, #fff 0%, transparent 50%),
+    radial-gradient(circle at 140% 0%, #f23955 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, #f1bcce 0%, transparent 50%),
+    radial-gradient(circle at 0% 120%, #f23955 0%, transparent 50%),
+    #fff;
+}
