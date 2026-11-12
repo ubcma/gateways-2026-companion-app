@@ -4,20 +4,6 @@ export type Profile = {
   interests: string[];
 };
 
-export type SessionType = "keynote" | "workshop" | "networking" | "break";
-
-export type Session = {
-  id: string;
-  /** 24h "HH:MM" on the conference day */
-  start: string;
-  end: string;
-  title: string;
-  type: SessionType;
-  location: string;
-  speaker?: string;
-  description?: string;
-};
-
 export type Delegate = {
   id: string;
   name: string;

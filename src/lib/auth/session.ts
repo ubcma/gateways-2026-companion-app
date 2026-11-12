@@ -26,7 +26,7 @@ const backendURL = process.env.BACKEND_URL ?? process.env.NEXT_PUBLIC_BACKEND_UR
 // `incomplete` is only set manually by admins to revoke a registration.
 const ACTIVE_REGISTRATION_STATUSES = new Set(["registered", "checkedIn"]);
 
-async function fetchWithSession(path: string) {
+export async function fetchWithSession(path: string) {
   const cookieStore = await cookies();
   if (!hasSessionCookie(cookieStore)) {
     return null;

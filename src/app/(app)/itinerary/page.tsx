@@ -1,37 +1,42 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import { Suspense } from "react";
-import { AppHeader } from "@/components/AppHeader";
-import { ListSkeleton } from "@/components/ListSkeleton";
-import { SessionCard } from "@/components/SessionCard";
-import { getItinerary } from "@/lib/data/itinerary";
+import { GatewaysRoute } from "@/components/GatewaysRoute";
+import { Spinner } from "@/components/Spinner";
+import { getGatewaysRoute } from "@/lib/data/gateways-route";
 
 export const metadata: Metadata = { title: "Gateways Route" };
 
-async function Itinerary() {
-  const sessions = await getItinerary();
+export const viewport: Viewport = { themeColor: "#0e0e0e" };
 
-  return (
-    <ol className="space-y-3">
-      {sessions.map((session) => (
-        <SessionCard key={session.id} session={session} />
-      ))}
-    </ol>
-  );
+async function Route() {
+  const { line, scores, workshops } = await getGatewaysRoute();
+  return <GatewaysRoute line={line} scores={scores} workshops={workshops} />;
 }
 
 export default function ItineraryPage() {
   return (
-    <>
-      <AppHeader
-        title="Gateways Route"
-        subtitle="Know what's next and where to be."
-        backHref="/"
-      />
-      <main className="flex-1 p-4">
-        <Suspense fallback={<ListSkeleton rows={5} />}>
-          <Itinerary />
+    <div className="flex-1 bg-[#0e0e0e]">
+      <main className="relative mx-auto h-[874px] w-full max-w-[402px] overflow-hidden font-['Helvetica_Neue',Helvetica,Arial,sans-serif]">
+        <h1 className="sr-only">Gateways Route</h1>
+        <Suspense
+          fallback={
+            <div className="absolute inset-0 flex items-center justify-center">
+              <Spinner className="size-6" />
+            </div>
+          }
+        >
+          <Route />
         </Suspense>
+        <Link
+          href="/"
+          aria-label="Back"
+          className="absolute left-[10px] top-[max(29px,env(safe-area-inset-top))] p-3"
+        >
+          <Image src="/gateways-route/back.svg" alt="" width={10} height={16} />
+        </Link>
       </main>
-    </>
+    </div>
   );
 }
