@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { GatewaysRoute } from "@/components/GatewaysRoute";
 import { Spinner } from "@/components/Spinner";
+import { getMyDelegateMatches } from "@/lib/data/delegate-matches";
 import { getGatewaysRoute } from "@/lib/data/gateways-route";
 
 export const metadata: Metadata = { title: "Gateways Route" };
@@ -11,8 +12,18 @@ export const metadata: Metadata = { title: "Gateways Route" };
 export const viewport: Viewport = { themeColor: "#0e0e0e" };
 
 async function Route() {
-  const { line, scores, workshops } = await getGatewaysRoute();
-  return <GatewaysRoute line={line} scores={scores} workshops={workshops} />;
+  const [{ line, scores, workshops }, delegateMatches] = await Promise.all([
+    getGatewaysRoute(),
+    getMyDelegateMatches(),
+  ]);
+  return (
+    <GatewaysRoute
+      line={line}
+      scores={scores}
+      workshops={workshops}
+      delegates={delegateMatches.matches}
+    />
+  );
 }
 
 export default function ItineraryPage() {

@@ -1,14 +1,6 @@
-import { MatchReasons } from "@/components/MatchReasons";
-import type { Delegate, Match } from "@/lib/types";
+import type { DelegateMatch } from "@/lib/delegate-matching/runtime";
 
-type DelegateCardProps = {
-  match: Match<Delegate>;
-  major: string;
-};
-
-export function DelegateCard({ match, major }: DelegateCardProps) {
-  const { item: delegate } = match;
-
+export function DelegateCard({ match }: { match: DelegateMatch }) {
   return (
     <li className="rounded-xl border border-zinc-200 p-4">
       <div className="flex items-center gap-3">
@@ -16,20 +8,16 @@ export function DelegateCard({ match, major }: DelegateCardProps) {
           aria-hidden
           className="flex size-12 shrink-0 items-center justify-center rounded-full bg-zinc-200 font-semibold text-zinc-600"
         >
-          {delegate.name.charAt(0)}
+          {match.name.charAt(0)}
         </div>
         <div>
-          <h3 className="font-semibold">{delegate.name}</h3>
+          <h3 className="font-semibold">{match.name}</h3>
           <p className="text-sm text-zinc-600">
-            {delegate.title} · {delegate.company}
+            {match.role} · {match.company}
           </p>
         </div>
       </div>
-      <MatchReasons
-        sharesMajor={match.sharesMajor}
-        major={major}
-        sharedInterests={match.sharedInterests}
-      />
+      <p className="mt-2 text-sm text-zinc-700">{match.why}</p>
     </li>
   );
 }

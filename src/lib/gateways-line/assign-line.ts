@@ -22,7 +22,7 @@ export type LineAssignment = {
 
 // Titles and interests are typed by people, so tolerate case, spacing, Unicode
 // composition ("é" vs "e" + accent) and curly vs straight apostrophes.
-function normalizeKey(value: string): string {
+export function normalizeKey(value: string): string {
   return value
     .normalize("NFC")
     .replace(/[\u2018\u2019]/g, "'")

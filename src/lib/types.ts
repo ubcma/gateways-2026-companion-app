@@ -4,16 +4,6 @@ export type Profile = {
   interests: string[];
 };
 
-export type Delegate = {
-  id: string;
-  name: string;
-  title: string;
-  company: string;
-  majors: string[];
-  interests: string[];
-  linkedinUrl?: string;
-};
-
 export type JobType = "Full-time" | "Part-time" | "Internship" | "Co-op";
 
 export type Job = {

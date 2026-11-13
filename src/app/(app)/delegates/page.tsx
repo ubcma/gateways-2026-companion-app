@@ -3,23 +3,21 @@ import { Suspense } from "react";
 import { AppHeader } from "@/components/AppHeader";
 import { DelegateCard } from "@/components/DelegateCard";
 import { ListSkeleton } from "@/components/ListSkeleton";
-import { getDelegates } from "@/lib/data/delegates";
-import { getProfile } from "@/lib/data/profile";
-import { rankMatches } from "@/lib/matching";
+import { getMyDelegateMatches } from "@/lib/data/delegate-matches";
 
 export const metadata: Metadata = { title: "Delegate Matching" };
 
 async function DelegateMatches() {
-  const [profile, delegates] = await Promise.all([
-    getProfile(),
-    getDelegates(),
-  ]);
-  const matches = rankMatches(profile, delegates);
+  const { matches, reason } = await getMyDelegateMatches();
+
+  if (matches.length === 0) {
+    return <p className="text-sm text-zinc-600">{reason ?? "Your matches are on their way."}</p>;
+  }
 
   return (
     <ul className="space-y-3">
       {matches.map((match) => (
-        <DelegateCard key={match.item.id} match={match} major={profile.major} />
+        <DelegateCard key={match.delegateId} match={match} />
       ))}
     </ul>
   );
@@ -30,7 +28,7 @@ export default function DelegatesPage() {
     <>
       <AppHeader
         title="Delegate Matching"
-        subtitle="3 delegates based on your interests and major."
+        subtitle="3 delegates based on your interests, workshops and major."
         backHref="/"
       />
       <main className="flex-1 p-4">

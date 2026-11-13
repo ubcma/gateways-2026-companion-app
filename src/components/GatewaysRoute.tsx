@@ -1,6 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import { UserRound } from "lucide-react";
 import type { ReactNode } from "react";
+import type { DelegateMatch } from "@/lib/delegate-matching/runtime";
 import type { WorkshopPick } from "@/lib/gateways-line/assign-line";
 import { LINES, type Line } from "@/lib/gateways-line/config";
 import { formatTime } from "@/lib/format";
@@ -99,9 +101,8 @@ function WorkshopStop({ slot, title }: { slot: 1 | 2; title: WorkshopPick }) {
   );
 }
 
-// Placeholder until delegate matching exists; swap in the matched delegate's
-// photo, name and role here.
-function DelegateStation() {
+function DelegateStation({ delegates }: { delegates: DelegateMatch[] }) {
+  const [top, ...others] = delegates;
   return (
     <li className="absolute inset-x-0 top-[671px] flex items-start">
       <span className="ml-[85px] w-[85px] shrink-0 pt-[25px] text-[18px] font-bold leading-[17px] text-[#bcbcbc]">
@@ -112,8 +113,33 @@ function DelegateStation() {
       </div>
       <div className="ml-[13px] min-w-0 flex-1 pr-4 font-medium text-white">
         <p className="text-[8px] italic leading-[19px]">Network with your delegate:</p>
-        <p className="mt-[1.5px] text-[19px] leading-[14px]">Coming soon</p>
-        <p className="text-[12px] leading-[14px]">Your match is on its way</p>
+        {top ? (
+          <>
+            <p className="mt-[1.5px] truncate text-[19px] leading-[19px]">{top.name}</p>
+            <p className="truncate text-[12px] leading-[14px]">
+              {top.role} · {top.company}
+            </p>
+            <p className="mt-1 line-clamp-2 text-[10px] leading-[12px] text-[#bcbcbc]">{top.why}</p>
+            {others.length > 0 && (
+              <ul className="mt-2 text-[12px] leading-[15px]">
+                <li className="text-[8px] italic leading-[12px]">Also meet:</li>
+                {others.map((delegate) => (
+                  <li key={delegate.delegateId} className="truncate">
+                    {delegate.name} · {delegate.company}
+                  </li>
+                ))}
+              </ul>
+            )}
+            <Link href="/delegates" className="mt-1 inline-block text-[10px] leading-[14px] text-[#bcbcbc] underline">
+              Why these delegates
+            </Link>
+          </>
+        ) : (
+          <>
+            <p className="mt-[1.5px] text-[19px] leading-[14px]">Coming soon</p>
+            <p className="text-[12px] leading-[14px]">Your match is on its way</p>
+          </>
+        )}
       </div>
     </li>
   );
@@ -122,10 +148,11 @@ function DelegateStation() {
 type GatewaysRouteProps = {
   line: Line;
   workshops: [WorkshopPick, WorkshopPick];
+  delegates: DelegateMatch[];
   scores?: Record<Line, number>;
 };
 
-export function GatewaysRoute({ line, workshops, scores }: GatewaysRouteProps) {
+export function GatewaysRoute({ line, workshops, delegates, scores }: GatewaysRouteProps) {
   return (
     <div data-line={line} className="absolute inset-0 tracking-[-0.04em]">
       <RouteLine line={line} />
@@ -158,7 +185,7 @@ export function GatewaysRoute({ line, workshops, scores }: GatewaysRouteProps) {
           <p>{formatTime(SCHEDULE.keynote)}</p>
           <p>Keynote</p>
         </Station>
-        <DelegateStation />
+        <DelegateStation delegates={delegates} />
       </ol>
 
       {process.env.NODE_ENV === "development" && scores && (
