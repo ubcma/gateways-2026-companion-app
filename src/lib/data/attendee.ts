@@ -6,6 +6,10 @@ import type { WorkshopPick } from "@/lib/gateways-line/assign-line";
 
 export type Me = {
   userId: string;
+  name: string;
+  email: string;
+  /** Membership portal profile photo: an absolute URL or a path on the portal, e.g. `/profile-photos/apple.png`. */
+  avatar: string | null;
   interests: string[] | string | null;
   major: string | null;
   onboardingComplete: boolean | null;

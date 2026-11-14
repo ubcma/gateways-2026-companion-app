@@ -10,7 +10,8 @@ import {
 import { inputHash, isMatchableDelegate, type AttendeeInput, type Delegate } from "./score";
 import { rankAndSelect, type StoredMatch } from "./select";
 
-export type DelegateMatch = StoredMatch & Pick<Delegate, "name" | "company" | "role" | "jobTags">;
+export type DelegateMatch = StoredMatch &
+  Pick<Delegate, "name" | "company" | "role" | "linkedinUrl" | "jobTags">;
 
 export type DelegateMatchesResult = {
   matches: DelegateMatch[];
@@ -57,7 +58,16 @@ export function getDelegateMatchesForUser(
     matches.flatMap((match) => {
       const delegate = matchable.get(match.delegateId);
       return delegate
-        ? [{ ...match, name: delegate.name, company: delegate.company, role: delegate.role, jobTags: delegate.jobTags }]
+        ? [
+            {
+              ...match,
+              name: delegate.name,
+              company: delegate.company,
+              role: delegate.role,
+              linkedinUrl: delegate.linkedinUrl,
+              jobTags: delegate.jobTags,
+            },
+          ]
         : [];
     });
 

@@ -25,6 +25,7 @@ describe("findDelegateIssues", () => {
       { ...good, id: "odd-tag", name: "Odd Tag", jobTags: ["Sales"] },
       { ...good, id: "mixed", name: "Mixed", jobTags: ["General", "Brand Management"] },
       { id: "bare", name: "Bare", company: "", role: "Lead", jobTags: ["Brand Management"] },
+      { ...good, id: "bad-link", name: "Bad Link", jobTags: ["Brand Management"], linkedinUrl: "javascript:alert(1)" },
     ]);
     expect(issues.map(({ index, problem }) => `${index}: ${problem}`)).toEqual([
       "1: duplicate id",
@@ -35,6 +36,7 @@ describe("findDelegateIssues", () => {
       '5: "General" combined with other tags ("General", "Brand Management"); excluded from matching',
       "6: blank company",
       "6: matchable must be true or false",
+      "7: linkedinUrl must start with https://; it won't be shown",
     ]);
   });
 });

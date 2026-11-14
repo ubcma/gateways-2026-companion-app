@@ -93,15 +93,22 @@ export function SignInForm() {
             transition={fadeTransition}
             className="flex flex-col place-items-center gap-6 text-center"
           >
-            <Image src="/logos/logo_red.svg" width={128} height={128} alt="UBC MA Logo" priority />
+            <Image
+              src="/logos/gateways-icon.png"
+              width={96}
+              height={96}
+              alt="Gateways"
+              priority
+              className="size-20"
+            />
 
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
             >
-              <h2 className="mb-2 text-2xl font-semibold">Welcome to Gateways 2026</h2>
-              <p className="text-base text-zinc-500">Enter your email to sign in</p>
+              <h1 className="mb-2 text-[28px] font-bold tracking-[-0.04em]">Welcome to Gateways</h1>
+              <p className="text-[15px] tracking-[-0.04em] text-zinc-400">Enter your email to sign in</p>
             </motion.div>
 
             <form
@@ -116,7 +123,7 @@ export function SignInForm() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
-                className="space-y-2"
+                className="space-y-3"
               >
                 <emailForm.Field
                   name="email"
@@ -132,9 +139,7 @@ export function SignInForm() {
                   {(field) => <InputField type="email" label="Email" field={field} />}
                 </emailForm.Field>
 
-                <emailForm.Subscribe
-                  selector={(state) => [state.canSubmit, state.isSubmitting]}
-                >
+                <emailForm.Subscribe selector={(state) => [state.canSubmit, state.isSubmitting]}>
                   {([canSubmit, isSubmitting]) => (
                     <AuthButton
                       variant="ma"
@@ -163,18 +168,18 @@ export function SignInForm() {
               className="flex w-full flex-col gap-4"
             >
               <div className="flex items-center justify-between">
-                <hr className="w-full border-zinc-900/20" />
-                <span className="mx-2 text-xs text-zinc-500">OR</span>
-                <hr className="w-full border-zinc-900/20" />
+                <hr className="w-full border-white/15" />
+                <span className="mx-2 text-xs tracking-[0.08em] text-zinc-500">OR</span>
+                <hr className="w-full border-white/15" />
               </div>
 
               <GoogleSignInButton />
 
-              <p className="text-sm text-zinc-700">
+              <p className="text-sm text-zinc-400">
                 New here?{" "}
                 <a
                   href={`${portalURL}/sign-up`}
-                  className="inline-flex items-center gap-1 font-semibold text-ma-red hover:underline"
+                  className="inline-flex items-center gap-1 font-semibold text-white hover:underline"
                 >
                   Sign Up <ArrowUpRight size={16} />
                 </a>
@@ -197,11 +202,11 @@ export function SignInForm() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
             >
-              <h2 className="mb-2 text-xl font-semibold">Welcome back</h2>
-              <p className="text-sm text-zinc-500">
+              <h2 className="mb-2 text-[22px] font-bold tracking-[-0.04em]">Welcome back</h2>
+              <p className="text-sm text-zinc-400">
                 Enter your password for{" "}
                 <motion.span
-                  className="font-medium"
+                  className="font-medium text-white"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.3 }}
@@ -242,7 +247,7 @@ export function SignInForm() {
               >
                 <a
                   href={`${portalURL}/forgot-password`}
-                  className="text-sm font-semibold text-ma-red hover:underline"
+                  className="text-sm font-semibold text-white hover:underline"
                 >
                   Forgot password?
                 </a>
@@ -254,19 +259,12 @@ export function SignInForm() {
                 transition={{ delay: 0.3 }}
                 className="flex gap-2"
               >
-                <AuthButton
-                  type="button"
-                  variant="outline"
-                  onClick={handleGoBack}
-                  className="flex-1"
-                >
+                <AuthButton type="button" variant="outline" onClick={handleGoBack} className="flex-1">
                   <ArrowLeft className="size-4" />
                   Back
                 </AuthButton>
 
-                <passwordForm.Subscribe
-                  selector={(state) => [state.canSubmit, state.isSubmitting]}
-                >
+                <passwordForm.Subscribe selector={(state) => [state.canSubmit, state.isSubmitting]}>
                   {([canSubmit, isSubmitting]) => (
                     <AuthButton
                       variant="ma"
@@ -307,8 +305,8 @@ export function SignInForm() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
             >
-              <h2 className="mb-2 text-xl font-semibold">Account Found</h2>
-              <p className="text-sm text-zinc-500">
+              <h2 className="mb-2 text-[22px] font-bold tracking-[-0.04em]">Account found</h2>
+              <p className="text-sm text-zinc-400">
                 We found an associated Google account with this email.
               </p>
             </motion.div>
@@ -326,13 +324,13 @@ export function SignInForm() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
-              className="text-sm"
+              className="text-sm text-zinc-400"
             >
               Or
               <button
                 type="button"
                 onClick={() => setStep("password")}
-                className="mx-1 cursor-pointer font-semibold text-ma-red hover:underline"
+                className="mx-1 cursor-pointer font-semibold text-white hover:underline"
               >
                 click here
               </button>

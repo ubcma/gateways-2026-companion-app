@@ -14,6 +14,8 @@ export type Delegate = {
   name: string;
   company: string;
   role: string;
+  /** Absolute https URL of their LinkedIn profile. */
+  linkedinUrl?: string;
   jobTags: string[];
   matchable: boolean;
 };

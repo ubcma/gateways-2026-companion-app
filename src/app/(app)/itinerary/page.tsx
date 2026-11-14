@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
 import { GatewaysRoute } from "@/components/GatewaysRoute";
-import { Spinner } from "@/components/Spinner";
+import { TransitLoader } from "@/components/motion/TransitLoader";
 import { getMyDelegateMatches } from "@/lib/data/delegate-matches";
 import { getGatewaysRoute } from "@/lib/data/gateways-route";
 
@@ -21,7 +21,7 @@ async function Route() {
       line={line}
       scores={scores}
       workshops={workshops}
-      delegates={delegateMatches.matches}
+      delegate={delegateMatches.matches[0]}
     />
   );
 }
@@ -34,7 +34,7 @@ export default function ItineraryPage() {
         <Suspense
           fallback={
             <div className="absolute inset-0 flex items-center justify-center">
-              <Spinner className="size-6" />
+              <TransitLoader label="Mapping your route" />
             </div>
           }
         >

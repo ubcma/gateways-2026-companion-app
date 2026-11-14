@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 type AppHeaderProps = {
@@ -8,17 +9,16 @@ type AppHeaderProps = {
 
 export function AppHeader({ title, subtitle, backHref }: AppHeaderProps) {
   return (
-    <header className="sticky top-0 z-10 border-b border-zinc-200 bg-white/90 px-4 pb-3 pt-[max(env(safe-area-inset-top),0.75rem)] backdrop-blur">
-      {backHref && (
-        <Link
-          href={backHref}
-          className="mb-1 inline-flex items-center gap-1 text-sm text-zinc-500 hover:text-zinc-900"
-        >
-          <span aria-hidden>←</span> Back
-        </Link>
-      )}
-      <h1 className="text-xl font-semibold tracking-tight">{title}</h1>
-      {subtitle && <p className="text-sm text-zinc-500">{subtitle}</p>}
+    <header className="sticky top-0 z-10 bg-night/85 pb-3 pl-[10px] pr-5 pt-[max(29px,env(safe-area-inset-top))] font-display text-white backdrop-blur">
+      <div className="flex items-center">
+        {backHref && (
+          <Link href={backHref} aria-label="Back" className="p-3">
+            <Image src="/gateways-route/back.svg" alt="" width={10} height={16} />
+          </Link>
+        )}
+        <h1 className="text-[22px] font-bold tracking-[-0.04em]">{title}</h1>
+      </div>
+      {subtitle && <p className="pl-[10px] text-sm text-zinc-400">{subtitle}</p>}
     </header>
   );
 }

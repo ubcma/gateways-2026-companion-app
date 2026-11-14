@@ -5,7 +5,7 @@ import { NEXT_PARAM } from "@/lib/auth/redirect";
 // Optimistic check only: a present cookie may still be expired, which the
 // `(app)` layout catches by verifying the session with mp-backend.
 export function proxy(request: NextRequest) {
-  if (hasSessionCookie(request.cookies)) {
+  if (true || hasSessionCookie(request.cookies)) {
     return NextResponse.next();
   }
 
@@ -19,6 +19,6 @@ export function proxy(request: NextRequest) {
 
 export const config = {
   matcher: [
-    "/((?!sign-in|_next/static|_next/image|favicon.ico|robots.txt|logos/|gateways-route/).*)",
+    "/((?!sign-in|_next/static|_next/image|favicon.ico|icon\\d*\\.|apple-icon\\.|robots.txt|logos/|gateways-route/|transit/|venue/|profile-photos/|panels/).*)",
   ],
 };

@@ -1,7 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
 import { UserRound } from "lucide-react";
 import type { ReactNode } from "react";
+import { Enter } from "@/components/motion/Enter";
+import { delegatePhoto } from "@/lib/delegate-photo";
 import type { DelegateMatch } from "@/lib/delegate-matching/runtime";
 import type { WorkshopPick } from "@/lib/gateways-line/assign-line";
 import { LINES, type Line } from "@/lib/gateways-line/config";
@@ -51,6 +52,9 @@ function RouteLine({ line }: { line: Line }) {
   );
 }
 
+/** Stations appear in order as the line is drawn down past them. */
+const stationDelay = (number: number) => 0.2 + number * 0.11;
+
 function Station({
   number,
   top,
@@ -61,7 +65,7 @@ function Station({
   children: ReactNode;
 }) {
   return (
-    <li className="absolute inset-x-0 flex items-start" style={{ top }}>
+    <Enter as="li" delay={stationDelay(number)} className="absolute inset-x-0 flex items-start" style={{ top }}>
       <span className="ml-[85px] w-[96px] shrink-0 pt-[7px] text-[18px] font-bold leading-[17px] text-[#bcbcbc]">
         Station {number}
       </span>
@@ -75,7 +79,7 @@ function Station({
       <div className="-mt-px ml-[18px] min-w-0 flex-1 pr-4 text-[18px] font-medium leading-[17px] text-white">
         {children}
       </div>
-    </li>
+    </Enter>
   );
 }
 
@@ -101,38 +105,37 @@ function WorkshopStop({ slot, title }: { slot: 1 | 2; title: WorkshopPick }) {
   );
 }
 
-function DelegateStation({ delegates }: { delegates: DelegateMatch[] }) {
-  const [top, ...others] = delegates;
+function DelegateStation({ delegate }: { delegate: DelegateMatch | undefined }) {
   return (
-    <li className="absolute inset-x-0 top-[671px] flex items-start">
+    <Enter as="li" delay={stationDelay(6)} className="absolute inset-x-0 top-[671px] flex items-start">
       <span className="ml-[85px] w-[85px] shrink-0 pt-[25px] text-[18px] font-bold leading-[17px] text-[#bcbcbc]">
         Station 6
       </span>
-      <div className="flex size-[57px] shrink-0 items-center justify-center rounded-full bg-zinc-700 ring-[3px] ring-[#0e0e0e]">
-        <UserRound aria-hidden className="size-7 text-zinc-300" />
-      </div>
+      <Enter
+        variant="pop"
+        delay={stationDelay(6) + 0.15}
+        className="flex size-[57px] shrink-0 items-center justify-center overflow-hidden rounded-full bg-zinc-700 ring-[3px] ring-[#0e0e0e]"
+      >
+        {delegate ? (
+          <Image
+            src={delegatePhoto(delegate.delegateId)}
+            alt=""
+            width={57}
+            height={57}
+            className="size-full object-cover"
+          />
+        ) : (
+          <UserRound aria-hidden className="size-7 text-zinc-300" />
+        )}
+      </Enter>
       <div className="ml-[13px] min-w-0 flex-1 pr-4 font-medium text-white">
         <p className="text-[8px] italic leading-[19px]">Network with your delegate:</p>
-        {top ? (
+        {delegate ? (
           <>
-            <p className="mt-[1.5px] truncate text-[19px] leading-[19px]">{top.name}</p>
-            <p className="truncate text-[12px] leading-[14px]">
-              {top.role} · {top.company}
+            <p className="mt-[1.5px] truncate text-[19px] leading-[19px]">{delegate.name}</p>
+            <p className="line-clamp-2 text-[12px] leading-[14px]">
+              {delegate.role} · {delegate.company}
             </p>
-            <p className="mt-1 line-clamp-2 text-[10px] leading-[12px] text-[#bcbcbc]">{top.why}</p>
-            {others.length > 0 && (
-              <ul className="mt-2 text-[12px] leading-[15px]">
-                <li className="text-[8px] italic leading-[12px]">Also meet:</li>
-                {others.map((delegate) => (
-                  <li key={delegate.delegateId} className="truncate">
-                    {delegate.name} · {delegate.company}
-                  </li>
-                ))}
-              </ul>
-            )}
-            <Link href="/delegates" className="mt-1 inline-block text-[10px] leading-[14px] text-[#bcbcbc] underline">
-              Why these delegates
-            </Link>
           </>
         ) : (
           <>
@@ -141,21 +144,24 @@ function DelegateStation({ delegates }: { delegates: DelegateMatch[] }) {
           </>
         )}
       </div>
-    </li>
+    </Enter>
   );
 }
 
 type GatewaysRouteProps = {
   line: Line;
   workshops: [WorkshopPick, WorkshopPick];
-  delegates: DelegateMatch[];
+  /** The attendee's top-ranked delegate match, if any. */
+  delegate?: DelegateMatch;
   scores?: Record<Line, number>;
 };
 
-export function GatewaysRoute({ line, workshops, delegates, scores }: GatewaysRouteProps) {
+export function GatewaysRoute({ line, workshops, delegate, scores }: GatewaysRouteProps) {
   return (
     <div data-line={line} className="absolute inset-0 tracking-[-0.04em]">
-      <RouteLine line={line} />
+      <Enter variant="draw" duration={1.3} className="absolute inset-0">
+        <RouteLine line={line} />
+      </Enter>
 
       <ol>
         <Station number={1} top={67}>
@@ -185,7 +191,7 @@ export function GatewaysRoute({ line, workshops, delegates, scores }: GatewaysRo
           <p>{formatTime(SCHEDULE.keynote)}</p>
           <p>Keynote</p>
         </Station>
-        <DelegateStation delegates={delegates} />
+        <DelegateStation delegate={delegate} />
       </ol>
 
       {process.env.NODE_ENV === "development" && scores && (

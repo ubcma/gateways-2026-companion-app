@@ -37,6 +37,10 @@ export function findDelegateIssues(raw: unknown): DelegateIssue[] {
         report(`${field} has leading or trailing whitespace`);
       }
     }
+    const { linkedinUrl } = delegate;
+    if (linkedinUrl !== undefined && (typeof linkedinUrl !== "string" || !linkedinUrl.startsWith("https://"))) {
+      report("linkedinUrl must start with https://; it won't be shown");
+    }
     if (typeof delegate.name === "string" && id && id !== slugify(delegate.name)) {
       report(`id should be "${slugify(delegate.name)}"`);
     }

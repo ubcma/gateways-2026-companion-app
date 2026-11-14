@@ -50,6 +50,11 @@ function trimmed(value: unknown) {
   return typeof value === "string" ? value.trim() : "";
 }
 
+function httpsUrl(value: unknown) {
+  const url = trimmed(value);
+  return url.startsWith("https://") ? url : undefined;
+}
+
 /** Parses an untrusted delegate list, trimming fields and dropping entries without an id or name. */
 export function readDelegates(raw: unknown): Delegate[] {
   if (!Array.isArray(raw)) {
@@ -65,6 +70,7 @@ export function readDelegates(raw: unknown): Delegate[] {
         name: trimmed(value.name),
         company: trimmed(value.company),
         role: trimmed(value.role),
+        linkedinUrl: httpsUrl(value.linkedinUrl),
         jobTags: Array.isArray(value.jobTags) ? value.jobTags.map(trimmed).filter(Boolean) : [],
         matchable: value.matchable === true,
       },
