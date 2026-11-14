@@ -1,0 +1,2651 @@
+{
+  "generatedAt": "2026-11-14T03:02:34.090Z",
+  "configVersion": "2026-11-12.1",
+  "matches": {
+    "36HqMdfke3q40DkQiNfw0lIaolbAr9qg": {
+      "inputHash": "4294b21cab664222",
+      "matches": [
+        {
+          "delegateId": "jochen-hsia",
+          "rank": 1,
+          "score": 0.315,
+          "why": "Brand Management (interest: Brand Management, Entrepreneurship; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "akarty-dhesi",
+          "rank": 2,
+          "score": 0.168,
+          "why": "Product Management / Product Marketing (interest: Product Management, Entrepreneurship)"
+        },
+        {
+          "delegateId": "levi-lu",
+          "rank": 3,
+          "score": 0.242,
+          "why": "Brand Management (interest: Brand Management, Entrepreneurship; workshop: Brandstorm, Retention-Driven Growth)"
+        }
+      ]
+    },
+    "3Tl1LC3q1gVKELioe5gi547fa50W2IlL": {
+      "inputHash": "34e171d611562d37",
+      "matches": [
+        {
+          "delegateId": "mark-motozono",
+          "rank": 1,
+          "score": 0.267,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship, Graphic Design; workshop: Brandstorm, Retention-Driven Growth; major: Psychology)"
+        },
+        {
+          "delegateId": "alan-lagunes",
+          "rank": 2,
+          "score": 0.166,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship, Graphic Design; workshop: Brandstorm, Retention-Driven Growth; major: Psychology)"
+        },
+        {
+          "delegateId": "nicole-leung",
+          "rank": 3,
+          "score": 0.179,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Consulting, Entrepreneurship, Sales; workshop: Retention-Driven Growth, Brandstorm)"
+        }
+      ]
+    },
+    "41WCrJj6OaLFoIW7UMI3a6crTO84fedV": {
+      "inputHash": "57924ee6edd52e94",
+      "matches": [
+        {
+          "delegateId": "cheryl-gracielle-lee",
+          "rank": 1,
+          "score": 0.266,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Digital Marketing; workshop: Brandstorm, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "rishil-kishinchandani",
+          "rank": 2,
+          "score": 0.181,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Digital Marketing; workshop: Brandstorm, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "ethan-hansen",
+          "rank": 3,
+          "score": 0.183,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Digital Marketing; workshop: Brandstorm, Start-Up Marketing)"
+        }
+      ]
+    },
+    "5TP4eNMrV1MlJcBLeiPe3zdbvCbNVaSW": {
+      "inputHash": "5950d7343f9abaf6",
+      "matches": [
+        {
+          "delegateId": "eleanor-hawkins",
+          "rank": 1,
+          "score": 0.167,
+          "why": "General: Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Digital Marketing, Product Management, Sales; workshop: Brandstorm, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "priya-sidhu",
+          "rank": 2,
+          "score": 0.132,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, Brand Management, Digital Marketing; workshop: Brandstorm, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "matt-retera-robinson",
+          "rank": 3,
+          "score": 0.215,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Digital Marketing, Product Management, Sales; workshop: Brandstorm, Start-Up Marketing)"
+        }
+      ]
+    },
+    "5ptaGnR56kM5CHN8z2SLCbebKiWsA5V9": {
+      "inputHash": "e9fb2f78090210a5",
+      "matches": [
+        {
+          "delegateId": "chloe-cadieux",
+          "rank": 1,
+          "score": 0.286,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management)"
+        },
+        {
+          "delegateId": "chantal-brioux",
+          "rank": 2,
+          "score": 0.286,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management)"
+        },
+        {
+          "delegateId": "priyaali-kanti",
+          "rank": 3,
+          "score": 0.286,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management)"
+        }
+      ]
+    },
+    "6AfxL6eQj0wXCKuf9n9hq0exjXPFJSEG": {
+      "inputHash": "9b2649b647c285a9",
+      "matches": [
+        {
+          "delegateId": "jeffrey-beatty",
+          "rank": 1,
+          "score": 0.314,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship; workshop: Own Your Narrative, Retention-Driven Growth; major: Marketing)"
+        },
+        {
+          "delegateId": "vickie-wu",
+          "rank": 2,
+          "score": 0.225,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Entrepreneurship; workshop: Retention-Driven Growth; major: Marketing)"
+        },
+        {
+          "delegateId": "jochen-hsia",
+          "rank": 3,
+          "score": 0.314,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship; workshop: Own Your Narrative, Retention-Driven Growth; major: Marketing)"
+        }
+      ]
+    },
+    "6Cj8ybPlwnoeH46UZ7dCfG7FXoKMpXWh": {
+      "inputHash": "92162725da8c9d4a",
+      "matches": [
+        {
+          "delegateId": "aaron-kondolay",
+          "rank": 1,
+          "score": 0.254,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX, Entrepreneurship; workshop: Product Innovation Case Challenge)"
+        },
+        {
+          "delegateId": "ethan-hansen",
+          "rank": 2,
+          "score": 0.214,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX, Entrepreneurship; workshop: Product Innovation Case Challenge)"
+        },
+        {
+          "delegateId": "aika-kim",
+          "rank": 3,
+          "score": 0.254,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX, Entrepreneurship; workshop: Product Innovation Case Challenge)"
+        }
+      ]
+    },
+    "6Mhe7EYH1Ej40IKkUdQxxyp4hlnxgrl6": {
+      "inputHash": "73e12a486d0f55e1",
+      "matches": [
+        {
+          "delegateId": "susie-lee",
+          "rank": 1,
+          "score": 0.379,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Digital Marketing, Sales; workshop: Own Your Narrative, Retention-Driven Growth; major: Finance)"
+        },
+        {
+          "delegateId": "natasha-naidoo",
+          "rank": 2,
+          "score": 0.24,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Digital Marketing, Sales; workshop: Own Your Narrative, Retention-Driven Growth; major: Finance)"
+        },
+        {
+          "delegateId": "tim-wong",
+          "rank": 3,
+          "score": 0.305,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Digital Marketing, Sales; workshop: Own Your Narrative, Retention-Driven Growth; major: Finance)"
+        }
+      ]
+    },
+    "7ItcnTf8fu0bfTJ0R8BKY7yd0SE3PphQ": {
+      "inputHash": "e35f49095ec9bf18",
+      "matches": [
+        {
+          "delegateId": "paola-del-valle",
+          "rank": 1,
+          "score": 0.269,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management, Sales; workshop: Own Your Narrative, Retention-Driven Growth; major: Accounting)"
+        },
+        {
+          "delegateId": "gazal-dhillon",
+          "rank": 2,
+          "score": 0.396,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management, Sales; workshop: Own Your Narrative, Retention-Driven Growth; major: Accounting)"
+        },
+        {
+          "delegateId": "adi-pradeep",
+          "rank": 3,
+          "score": 0.396,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management, Sales; workshop: Own Your Narrative, Retention-Driven Growth; major: Accounting)"
+        }
+      ]
+    },
+    "80nCBgzcVCkqQHfVFLaMO74vnhFA6LEh": {
+      "inputHash": "d918f0ec1d1017c5",
+      "matches": [
+        {
+          "delegateId": "gazal-dhillon",
+          "rank": 1,
+          "score": 0.387,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Product Management; workshop: Start-Up Marketing, Own Your Narrative; major: Economics)"
+        },
+        {
+          "delegateId": "gabriella-wan",
+          "rank": 2,
+          "score": 0.296,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Product Management; workshop: Start-Up Marketing, Own Your Narrative; major: Economics)"
+        },
+        {
+          "delegateId": "dana-daetwyler",
+          "rank": 3,
+          "score": 0.387,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Product Management; workshop: Start-Up Marketing, Own Your Narrative; major: Economics)"
+        }
+      ]
+    },
+    "8ONv6cty4HGQfsI0xa3nTcCgmXYFPefA": {
+      "inputHash": "f91395aea3bb5c0a",
+      "matches": [
+        {
+          "delegateId": "derek-fukui",
+          "rank": 1,
+          "score": 0.306,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Own Your Narrative, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "mica-lemiski",
+          "rank": 2,
+          "score": 0.306,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, Brand Management, Digital Marketing; workshop: Own Your Narrative, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "yulia-breiman",
+          "rank": 3,
+          "score": 0.094,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Brand Management; workshop: Own Your Narrative, Start-Up Marketing)"
+        }
+      ]
+    },
+    "8phQYtst97ccat0B4CmvLO92tnNytHit": {
+      "inputHash": "e0c33da75770acc6",
+      "matches": [
+        {
+          "delegateId": "jaime-santos",
+          "rank": 1,
+          "score": 0.213,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Sales; workshop: Product Innovation Case Challenge, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "rachel-desmarais",
+          "rank": 2,
+          "score": 0.129,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; workshop: Start-Up Marketing)"
+        },
+        {
+          "delegateId": "liam-finn",
+          "rank": 3,
+          "score": 0.189,
+          "why": "Brand Management (interest: Brand Management, Entrepreneurship; workshop: Product Innovation Case Challenge, Start-Up Marketing; major: Marketing)"
+        }
+      ]
+    },
+    "Ad0AwwpCGHacTyNrKoAKUrbkNMGgztVm": {
+      "inputHash": "1ebd179e3c2e5806",
+      "matches": [
+        {
+          "delegateId": "irene-zhang",
+          "rank": 1,
+          "score": 0.215,
+          "why": "Product Management / Product Marketing (interest: Product Management; major: BTM)"
+        },
+        {
+          "delegateId": "amina-abdrazakova",
+          "rank": 2,
+          "score": 0.167,
+          "why": "General: Business Strategy & Market Research (interest: Consulting, Product Management; workshop: Brandstorm, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "mark-motozono",
+          "rank": 3,
+          "score": 0.233,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management; workshop: Brandstorm, Start-Up Marketing)"
+        }
+      ]
+    },
+    "Atkuz0psQJvlIYlZC28O8Bi7InJHIzuq": {
+      "inputHash": "b112af279b80c6e8",
+      "matches": [
+        {
+          "delegateId": "shirley-mu",
+          "rank": 1,
+          "score": 0.291,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Product Innovation Case Challenge, Retention-Driven Growth; major: Marketing)"
+        },
+        {
+          "delegateId": "lynn-vu",
+          "rank": 2,
+          "score": 0.181,
+          "why": "Product Management / Product Marketing (interest: Product Management; workshop: Product Innovation Case Challenge)"
+        },
+        {
+          "delegateId": "nicole-leung",
+          "rank": 3,
+          "score": 0.231,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing; workshop: Retention-Driven Growth; major: Marketing)"
+        }
+      ]
+    },
+    "BBqdcrqmjqvaxIQCUa3LCI4gXfyTujZT": {
+      "inputHash": "c68ece415d1caa84",
+      "matches": [
+        {
+          "delegateId": "dana-daetwyler",
+          "rank": 1,
+          "score": 0.386,
+          "why": "Business Strategy & Market Research (interest: Consulting, Sales; workshop: Brandstorm, Product Innovation Case Challenge; major: Finance)"
+        },
+        {
+          "delegateId": "paola-del-valle",
+          "rank": 2,
+          "score": 0.265,
+          "why": "Business Strategy & Market Research (interest: Consulting, Sales; workshop: Brandstorm, Product Innovation Case Challenge; major: Finance)"
+        },
+        {
+          "delegateId": "priyaali-kanti",
+          "rank": 3,
+          "score": 0.143,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management)"
+        }
+      ]
+    },
+    "Be5oteZz9RQrJKdSqqG12GYsd6fX3ljs": {
+      "inputHash": "380345f2943e134f",
+      "matches": [
+        {
+          "delegateId": "aiur-badmatcyrenov",
+          "rank": 1,
+          "score": 0.279,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Entrepreneurship, Sales; workshop: Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "ross-wamboldt",
+          "rank": 2,
+          "score": 0.11,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales)"
+        },
+        {
+          "delegateId": "nikole-hu",
+          "rank": 3,
+          "score": 0.279,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Entrepreneurship, Sales; workshop: Retention-Driven Growth)"
+        }
+      ]
+    },
+    "BxJ19akTZmzW3eTWfLMyDiPDcM78VkIW": {
+      "inputHash": "0473bfe882bf1291",
+      "matches": [
+        {
+          "delegateId": "levi-lu",
+          "rank": 1,
+          "score": 0.234,
+          "why": "Brand Management (interest: Brand Management; workshop: Brandstorm, Product Innovation Case Challenge; major: Marketing)"
+        },
+        {
+          "delegateId": "susie-lee",
+          "rank": 2,
+          "score": 0.247,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management; workshop: Brandstorm, Product Innovation Case Challenge)"
+        },
+        {
+          "delegateId": "justin-lee",
+          "rank": 3,
+          "score": 0.185,
+          "why": "Product Management / Product Marketing (interest: Product Management; workshop: Product Innovation Case Challenge)"
+        }
+      ]
+    },
+    "CXwqX8n5eGvdcpy9uUgF3UYw4zQOCcLH": {
+      "inputHash": "f0548c2cd524f502",
+      "matches": [
+        {
+          "delegateId": "tim-wong",
+          "rank": 1,
+          "score": 0.284,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Digital Marketing; workshop: Start-Up Marketing, Own Your Narrative)"
+        },
+        {
+          "delegateId": "jemma-read",
+          "rank": 2,
+          "score": 0.167,
+          "why": "General: Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Digital Marketing; workshop: Start-Up Marketing, Own Your Narrative)"
+        },
+        {
+          "delegateId": "anne-huang",
+          "rank": 3,
+          "score": 0.251,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Consulting, Entrepreneurship; workshop: Start-Up Marketing)"
+        }
+      ]
+    },
+    "CmMCVYmhiZ7enbONlXJmmCj1gDuJabf7": {
+      "inputHash": "a8b4de22ceaeec5a",
+      "matches": [
+        {
+          "delegateId": "dennis-pang",
+          "rank": 1,
+          "score": 0.209,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management; workshop: Start-Up Marketing, Own Your Narrative)"
+        },
+        {
+          "delegateId": "mary-xie",
+          "rank": 2,
+          "score": 0.1,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Brand Management; workshop: Own Your Narrative, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "jeffrey-beatty",
+          "rank": 3,
+          "score": 0.246,
+          "why": "Brand Management (interest: Brand Management; workshop: Own Your Narrative, Start-Up Marketing)"
+        }
+      ]
+    },
+    "F2sotARVB2tQ7WPLeZCYYsgLqZXraPCX": {
+      "inputHash": "81a78490ad2702db",
+      "matches": [
+        {
+          "delegateId": "prashant-balaji",
+          "rank": 1,
+          "score": 0.178,
+          "why": "Product Management / Product Marketing (interest: Product Management)"
+        },
+        {
+          "delegateId": "amina-abdrazakova",
+          "rank": 2,
+          "score": 0.167,
+          "why": "General: Brand Management (interest: Brand Management; major: Marketing)"
+        },
+        {
+          "delegateId": "natalie-niedzialek",
+          "rank": 3,
+          "score": 0.195,
+          "why": "Brand Management (interest: Brand Management; major: Marketing)"
+        }
+      ]
+    },
+    "G7qX2Aja3BXdvt8XbXe6unh6Nc6EcImh": {
+      "inputHash": "533de501671ef0cb",
+      "matches": [
+        {
+          "delegateId": "nicole-leung",
+          "rank": 1,
+          "score": 0.263,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Consulting, Entrepreneurship; workshop: Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "tim-wong",
+          "rank": 2,
+          "score": 0.267,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Digital Marketing; workshop: Start-Up Marketing, Own Your Narrative)"
+        },
+        {
+          "delegateId": "dennis-pang",
+          "rank": 3,
+          "score": 0.223,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Digital Marketing; workshop: Start-Up Marketing, Own Your Narrative)"
+        }
+      ]
+    },
+    "GbserKG6qQcjuSOehOe8JEMe4PUAVKUF": {
+      "inputHash": "e2f3ce1d0c03197d",
+      "matches": [
+        {
+          "delegateId": "jeffrey-beatty",
+          "rank": 1,
+          "score": 0.304,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "aiur-badmatcyrenov",
+          "rank": 2,
+          "score": 0.235,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing; workshop: Retention-Driven Growth, Brandstorm)"
+        },
+        {
+          "delegateId": "amina-abdrazakova",
+          "rank": 3,
+          "score": 0.167,
+          "why": "General: Brand Management (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Retention-Driven Growth)"
+        }
+      ]
+    },
+    "HIbm6hNhhruv59JjkYTMoSEgVMrI8fnt": {
+      "inputHash": "caf226844c2e1cc7",
+      "matches": [
+        {
+          "delegateId": "natalie-niedzialek",
+          "rank": 1,
+          "score": 0.25,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "jesse-grimaldi",
+          "rank": 2,
+          "score": 0.167,
+          "why": "General: Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "justin-lee",
+          "rank": 3,
+          "score": 0.147,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX)"
+        }
+      ]
+    },
+    "HgbqCV1uDurind5gvoy3rpQtdH4DIh2F": {
+      "inputHash": "db9e6311aa8ded83",
+      "matches": [
+        {
+          "delegateId": "maddie-brewer",
+          "rank": 1,
+          "score": 0.229,
+          "why": "Brand Management (interest: Brand Management; workshop: Own Your Narrative, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "cindy-wang",
+          "rank": 2,
+          "score": 0.189,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; workshop: Own Your Narrative)"
+        },
+        {
+          "delegateId": "connor-young",
+          "rank": 3,
+          "score": 0.189,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; workshop: Own Your Narrative)"
+        }
+      ]
+    },
+    "ICATxJiFlvKhwGFR0lu40sEb2SgkJxgR": {
+      "inputHash": "3a7380f6955c1d0d",
+      "matches": [
+        {
+          "delegateId": "susie-lee",
+          "rank": 1,
+          "score": 0.444,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship; major: Accounting)"
+        },
+        {
+          "delegateId": "adi-pradeep",
+          "rank": 2,
+          "score": 0.444,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship; major: Accounting)"
+        },
+        {
+          "delegateId": "colette-cheung",
+          "rank": 3,
+          "score": 0.444,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship; major: Accounting)"
+        }
+      ]
+    },
+    "ItqVy8T2Jznvcp6awjTuBj3APSjlaJMa": {
+      "inputHash": "0f047d92c8baad7d",
+      "matches": [
+        {
+          "delegateId": "colette-cheung",
+          "rank": 1,
+          "score": 0.379,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management; workshop: Product Innovation Case Challenge, Own Your Narrative; major: Finance)"
+        },
+        {
+          "delegateId": "althea-astudillo",
+          "rank": 2,
+          "score": 0.19,
+          "why": "Product Management / Product Marketing (interest: Product Management; workshop: Product Innovation Case Challenge)"
+        },
+        {
+          "delegateId": "susie-lee",
+          "rank": 3,
+          "score": 0.379,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management; workshop: Product Innovation Case Challenge, Own Your Narrative; major: Finance)"
+        }
+      ]
+    },
+    "IyaZVNT8m86EQ1K5suhMaAa8zcWoKFeX": {
+      "inputHash": "263ac578a0d08d66",
+      "matches": [
+        {
+          "delegateId": "anne-huang",
+          "rank": 1,
+          "score": 0.257,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing; workshop: Retention-Driven Growth, Brandstorm; major: Marketing)"
+        },
+        {
+          "delegateId": "mia-cheon",
+          "rank": 2,
+          "score": 0.25,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing; workshop: Retention-Driven Growth, Brandstorm; major: Marketing)"
+        },
+        {
+          "delegateId": "derek-fukui",
+          "rank": 3,
+          "score": 0.245,
+          "why": "Brand Management (interest: Digital Marketing, Graphic Design; workshop: Brandstorm, Retention-Driven Growth; major: Marketing)"
+        }
+      ]
+    },
+    "KBNRx5k6eboIinhUTo5O45dh0Lk1iLbC": {
+      "inputHash": "de76b4e0dc945bc9",
+      "matches": [
+        {
+          "delegateId": "matt-retera-robinson",
+          "rank": 1,
+          "score": 0.239,
+          "why": "Business Strategy & Market Research (interest: Consulting, Digital Marketing, Sales; workshop: Brandstorm, Start-Up Marketing; major: Psychology)"
+        },
+        {
+          "delegateId": "alan-lagunes",
+          "rank": 2,
+          "score": 0.203,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Start-Up Marketing; major: Psychology)"
+        },
+        {
+          "delegateId": "chloe-cadieux",
+          "rank": 3,
+          "score": 0.122,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; workshop: Start-Up Marketing)"
+        }
+      ]
+    },
+    "KJuyVDgdSXIrawmMSCXmQqQ0dS0fuTY0": {
+      "inputHash": "d78e1a0b989c90c3",
+      "matches": [
+        {
+          "delegateId": "vanessa-kwan",
+          "rank": 1,
+          "score": 0.275,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Retention-Driven Growth; major: Marketing)"
+        },
+        {
+          "delegateId": "mia-cheon",
+          "rank": 2,
+          "score": 0.2,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Sales; workshop: Retention-Driven Growth, Brandstorm; major: Marketing)"
+        },
+        {
+          "delegateId": "chantal-brioux",
+          "rank": 3,
+          "score": 0.1,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management)"
+        }
+      ]
+    },
+    "KQNOpoAibIP4ja7G3DUxshHHpQuI6OYh": {
+      "inputHash": "8235262ff9f385bc",
+      "matches": [
+        {
+          "delegateId": "vanessa-kwan",
+          "rank": 1,
+          "score": 0.275,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "trang-hoang",
+          "rank": 2,
+          "score": 0.22,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Consulting; workshop: Retention-Driven Growth, Brandstorm)"
+        },
+        {
+          "delegateId": "sarah-chow",
+          "rank": 3,
+          "score": 0.247,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Brandstorm, Retention-Driven Growth)"
+        }
+      ]
+    },
+    "KY5nSURrYlDwfj3rdLZVN9zI1ozo8OF5": {
+      "inputHash": "bc6e5c726d468c2c",
+      "matches": [
+        {
+          "delegateId": "adi-pradeep",
+          "rank": 1,
+          "score": 0.474,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Product Management; workshop: Brandstorm, Product Innovation Case Challenge; major: Finance)"
+        },
+        {
+          "delegateId": "colette-cheung",
+          "rank": 2,
+          "score": 0.474,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Product Management; workshop: Brandstorm, Product Innovation Case Challenge; major: Finance)"
+        },
+        {
+          "delegateId": "gazal-dhillon",
+          "rank": 3,
+          "score": 0.474,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Product Management; workshop: Brandstorm, Product Innovation Case Challenge; major: Finance)"
+        }
+      ]
+    },
+    "KYhyL6hyXfhXRpyGJ4anTOrf8yv19gg3": {
+      "inputHash": "5b2f92e86fe3ff58",
+      "matches": [
+        {
+          "delegateId": "simran-rathi",
+          "rank": 1,
+          "score": 0.383,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Sales; workshop: Brandstorm, Retention-Driven Growth; major: Finance)"
+        },
+        {
+          "delegateId": "jaime-santos",
+          "rank": 2,
+          "score": 0.281,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Sales; workshop: Brandstorm, Retention-Driven Growth; major: Finance)"
+        },
+        {
+          "delegateId": "cindy-wang",
+          "rank": 3,
+          "score": 0.105,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management)"
+        }
+      ]
+    },
+    "Kk5cD2OsN5usrp1S9o4xp6yYpPev4ubS": {
+      "inputHash": "9356da09eba2b475",
+      "matches": [
+        {
+          "delegateId": "althea-astudillo",
+          "rank": 1,
+          "score": 0.25,
+          "why": "Product Management / Product Marketing (interest: Product Management, Entrepreneurship; workshop: Product Innovation Case Challenge)"
+        },
+        {
+          "delegateId": "julia-zhou",
+          "rank": 2,
+          "score": 0.174,
+          "why": "Brand Management (interest: Brand Management, Entrepreneurship; workshop: Product Innovation Case Challenge, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "prashant-balaji",
+          "rank": 3,
+          "score": 0.25,
+          "why": "Product Management / Product Marketing (interest: Product Management, Entrepreneurship; workshop: Product Innovation Case Challenge)"
+        }
+      ]
+    },
+    "KxqflltbTWgDghyjubYPqyg0jG8SrGTb": {
+      "inputHash": "cba319b58127717a",
+      "matches": [
+        {
+          "delegateId": "matthew-chiu",
+          "rank": 1,
+          "score": 0.266,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Digital Marketing; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "cheryl-gracielle-lee",
+          "rank": 2,
+          "score": 0.316,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Digital Marketing; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "lily-trinh",
+          "rank": 3,
+          "score": 0.316,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Digital Marketing; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        }
+      ]
+    },
+    "N3pGPMoTJD1070qYsMqBEbafviyTLBXZ": {
+      "inputHash": "a12d1bb525ef2b1f",
+      "matches": [
+        {
+          "delegateId": "anne-huang",
+          "rank": 1,
+          "score": 0.25,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing; workshop: Retention-Driven Growth, Brandstorm; major: Marketing)"
+        },
+        {
+          "delegateId": "jochen-hsia",
+          "rank": 2,
+          "score": 0.308,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Retention-Driven Growth; major: Marketing)"
+        },
+        {
+          "delegateId": "sarah-chow",
+          "rank": 3,
+          "score": 0.279,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Retention-Driven Growth; major: Marketing)"
+        }
+      ]
+    },
+    "N5LSOqKJGjKaleF6TvYgYIgnuMTuKJnX": {
+      "inputHash": "622e6b0799d24c6d",
+      "matches": [
+        {
+          "delegateId": "cindy-wang",
+          "rank": 1,
+          "score": 0.168,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management)"
+        },
+        {
+          "delegateId": "john-leong",
+          "rank": 2,
+          "score": 0.221,
+          "why": "Brand Management (interest: Brand Management; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "ciro-wei",
+          "rank": 3,
+          "score": 0.168,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management)"
+        }
+      ]
+    },
+    "NNvGytrVaEfJHADsbSyGMZkdnDWOV6wa": {
+      "inputHash": "965448fec08f2157",
+      "matches": [
+        {
+          "delegateId": "jesse-grimaldi",
+          "rank": 1,
+          "score": 0.167,
+          "why": "General: Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Product Management, Sales; workshop: Start-Up Marketing, Own Your Narrative)"
+        },
+        {
+          "delegateId": "emily-payne",
+          "rank": 2,
+          "score": 0.13,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales; workshop: Own Your Narrative, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "simran-rathi",
+          "rank": 3,
+          "score": 0.264,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Product Management, Sales; workshop: Start-Up Marketing, Own Your Narrative)"
+        }
+      ]
+    },
+    "NYLR85eEpbJIoQFh6uMNTrDQYCUGqlel": {
+      "inputHash": "6705c003ed58447d",
+      "matches": [
+        {
+          "delegateId": "ethan-hansen",
+          "rank": 1,
+          "score": 0.195,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Digital Marketing; workshop: Own Your Narrative)"
+        },
+        {
+          "delegateId": "alex-balbino",
+          "rank": 2,
+          "score": 0.174,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Digital Marketing; workshop: Own Your Narrative)"
+        },
+        {
+          "delegateId": "cheryl-gracielle-lee",
+          "rank": 3,
+          "score": 0.242,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Digital Marketing; workshop: Own Your Narrative)"
+        }
+      ]
+    },
+    "NkitwaH27QsRxHjsfvkVOCao2bL5RbYB": {
+      "inputHash": "bbff1c07d2ba8b66",
+      "matches": [
+        {
+          "delegateId": "gazal-dhillon",
+          "rank": 1,
+          "score": 0.359,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Sales; workshop: Start-Up Marketing, Own Your Narrative; major: Psychology)"
+        },
+        {
+          "delegateId": "malcolm-dennill",
+          "rank": 2,
+          "score": 0.154,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales; workshop: Own Your Narrative, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "jaime-santos",
+          "rank": 3,
+          "score": 0.257,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Sales; workshop: Start-Up Marketing, Own Your Narrative; major: Psychology)"
+        }
+      ]
+    },
+    "Nxz4tQdJS3GgSkUUd5R93bDKSoEAPpeo": {
+      "inputHash": "acdce357b72adf27",
+      "matches": [
+        {
+          "delegateId": "bhavin-punmiya",
+          "rank": 1,
+          "score": 0.385,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management; workshop: Product Innovation Case Challenge, Retention-Driven Growth; major: Accounting)"
+        },
+        {
+          "delegateId": "akarty-dhesi",
+          "rank": 2,
+          "score": 0.312,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX; workshop: Product Innovation Case Challenge)"
+        },
+        {
+          "delegateId": "newgen-bao",
+          "rank": 3,
+          "score": 0.312,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX; workshop: Product Innovation Case Challenge)"
+        }
+      ]
+    },
+    "OgPm2pvp505INcm3Y66e3wvLMan1aTUf": {
+      "inputHash": "2ca8b726c728aba5",
+      "matches": [
+        {
+          "delegateId": "matt-retera-robinson",
+          "rank": 1,
+          "score": 0.226,
+          "why": "Business Strategy & Market Research (interest: Consulting, Digital Marketing; workshop: Own Your Narrative, Retention-Driven Growth; major: Accounting)"
+        },
+        {
+          "delegateId": "dennis-pang",
+          "rank": 2,
+          "score": 0.257,
+          "why": "Business Strategy & Market Research (interest: Consulting, Digital Marketing; workshop: Own Your Narrative, Retention-Driven Growth; major: Accounting)"
+        },
+        {
+          "delegateId": "priya-sidhu",
+          "rank": 3,
+          "score": 0.137,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Brand Management, Digital Marketing; workshop: Own Your Narrative)"
+        }
+      ]
+    },
+    "Oy2dBgzDU4L0qKWVwXj076RSATHDmJav": {
+      "inputHash": "767bb59e0d7f814c",
+      "matches": [
+        {
+          "delegateId": "susie-lee",
+          "rank": 1,
+          "score": 0.343,
+          "why": "Business Strategy & Market Research (interest: Entrepreneurship, Digital Marketing, Product Management; workshop: Product Innovation Case Challenge, Start-Up Marketing; major: Accounting)"
+        },
+        {
+          "delegateId": "justin-lee",
+          "rank": 2,
+          "score": 0.17,
+          "why": "Product Management / Product Marketing (interest: Product Management, Entrepreneurship; workshop: Product Innovation Case Challenge)"
+        },
+        {
+          "delegateId": "emily-payne",
+          "rank": 3,
+          "score": 0.048,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Brand Management; workshop: Start-Up Marketing)"
+        }
+      ]
+    },
+    "QWAlrgzfWNxDxEnNAV0fUAXJcn29ujcd": {
+      "inputHash": "0cd2ca0e60194167",
+      "matches": [
+        {
+          "delegateId": "vickie-wu",
+          "rank": 1,
+          "score": 0.211,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Brand Management, Digital Marketing; workshop: Brandstorm; major: Media Studies)"
+        },
+        {
+          "delegateId": "mary-xie",
+          "rank": 2,
+          "score": 0.103,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; major: Media Studies)"
+        },
+        {
+          "delegateId": "christine-wong",
+          "rank": 3,
+          "score": 0.242,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Brand Management, Digital Marketing; workshop: Brandstorm; major: Media Studies)"
+        }
+      ]
+    },
+    "Qfm3tHgOagneBXN0iPrDs3xgwwnZVCdm": {
+      "inputHash": "f3784bc821c299d0",
+      "matches": [
+        {
+          "delegateId": "dana-daetwyler",
+          "rank": 1,
+          "score": 0.353,
+          "why": "Business Strategy & Market Research (interest: Consulting, Digital Marketing; workshop: Start-Up Marketing, Own Your Narrative; major: Accounting)"
+        },
+        {
+          "delegateId": "gabriella-wan",
+          "rank": 2,
+          "score": 0.29,
+          "why": "Business Strategy & Market Research (interest: Consulting, Digital Marketing; workshop: Start-Up Marketing, Own Your Narrative; major: Accounting)"
+        },
+        {
+          "delegateId": "gazal-dhillon",
+          "rank": 3,
+          "score": 0.353,
+          "why": "Business Strategy & Market Research (interest: Consulting, Digital Marketing; workshop: Start-Up Marketing, Own Your Narrative; major: Accounting)"
+        }
+      ]
+    },
+    "QzosWi4HNWu3brUjaZoAD9CQLaF6vl6o": {
+      "inputHash": "22370b4a0932520f",
+      "matches": [
+        {
+          "delegateId": "shirley-mu",
+          "rank": 1,
+          "score": 0.331,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship; workshop: Brandstorm, Retention-Driven Growth; major: Marketing)"
+        },
+        {
+          "delegateId": "matthew-chiu",
+          "rank": 2,
+          "score": 0.219,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Entrepreneurship; workshop: Retention-Driven Growth, Brandstorm; major: Marketing)"
+        },
+        {
+          "delegateId": "aiur-badmatcyrenov",
+          "rank": 3,
+          "score": 0.275,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Entrepreneurship; workshop: Retention-Driven Growth, Brandstorm; major: Marketing)"
+        }
+      ]
+    },
+    "R2zhP7e5hJekPpX3AhZPhVKKbZqMrVwK": {
+      "inputHash": "9d1168b16dcdaf9e",
+      "matches": [
+        {
+          "delegateId": "alex-balbino",
+          "rank": 1,
+          "score": 0.207,
+          "why": "Creative, Content & Advertising (interest: Digital Marketing; workshop: Own Your Narrative, Start-Up Marketing; major: Media Studies)"
+        },
+        {
+          "delegateId": "priyaali-kanti",
+          "rank": 2,
+          "score": 0.19,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales; workshop: Own Your Narrative, Start-Up Marketing; major: Media Studies)"
+        },
+        {
+          "delegateId": "rachel-desmarais",
+          "rank": 3,
+          "score": 0.19,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales; workshop: Own Your Narrative, Start-Up Marketing; major: Media Studies)"
+        }
+      ]
+    },
+    "RYJlaU9gKCvcf7DjIJXrkmqhQOYuOEi7": {
+      "inputHash": "03036fc443bfc855",
+      "matches": [
+        {
+          "delegateId": "bianca-antonio",
+          "rank": 1,
+          "score": 0.298,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Own Your Narrative, Start-Up Marketing; major: Psychology)"
+        },
+        {
+          "delegateId": "rishil-kishinchandani",
+          "rank": 2,
+          "score": 0.17,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, Brand Management, Digital Marketing; workshop: Own Your Narrative, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "tina-liu",
+          "rank": 3,
+          "score": 0.208,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Own Your Narrative, Start-Up Marketing; major: Psychology)"
+        }
+      ]
+    },
+    "S7vWvtFhUYUND5zNHQiKT2iFrmztlFgE": {
+      "inputHash": "ffc339d24d96c17b",
+      "matches": [
+        {
+          "delegateId": "sarah-chow",
+          "rank": 1,
+          "score": 0.244,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship, Graphic Design; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "zoe-kaede",
+          "rank": 2,
+          "score": 0.15,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Entrepreneurship, Sales; workshop: Retention-Driven Growth, Brandstorm)"
+        },
+        {
+          "delegateId": "trang-hoang",
+          "rank": 3,
+          "score": 0.219,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Entrepreneurship, Sales; workshop: Retention-Driven Growth, Brandstorm)"
+        }
+      ]
+    },
+    "SNiHYfJsAdMAt8qaHRBxvzKQdb0bBbSg": {
+      "inputHash": "0eabeca915b91b4b",
+      "matches": [
+        {
+          "delegateId": "cheryl-gracielle-lee",
+          "rank": 1,
+          "score": 0.362,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, Brand Management, Digital Marketing; workshop: Own Your Narrative; major: Visual Art)"
+        },
+        {
+          "delegateId": "maddie-brewer",
+          "rank": 2,
+          "score": 0.301,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, Brand Management, Digital Marketing; workshop: Own Your Narrative; major: Visual Art)"
+        },
+        {
+          "delegateId": "mica-lemiski",
+          "rank": 3,
+          "score": 0.362,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, Brand Management, Digital Marketing; workshop: Own Your Narrative; major: Visual Art)"
+        }
+      ]
+    },
+    "SsUeICBSsmUEyoi5BJ2Qojd5JwQ3N2IX": {
+      "inputHash": "f6fc8761f0b018f7",
+      "matches": [
+        {
+          "delegateId": "john-leong",
+          "rank": 1,
+          "score": 0.224,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "malcolm-dennill",
+          "rank": 2,
+          "score": 0.173,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; workshop: Start-Up Marketing)"
+        },
+        {
+          "delegateId": "ross-wamboldt",
+          "rank": 3,
+          "score": 0.173,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; workshop: Start-Up Marketing)"
+        }
+      ]
+    },
+    "TOZupENvh9I2j3VF6sdzNZNjlfnwAogX": {
+      "inputHash": "62002d9df9e5626d",
+      "matches": [
+        {
+          "delegateId": "maddie-brewer",
+          "rank": 1,
+          "score": 0.265,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship, Graphic Design; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "vanessa-kwan",
+          "rank": 2,
+          "score": 0.324,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship, Graphic Design; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "aiur-badmatcyrenov",
+          "rank": 3,
+          "score": 0.235,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Entrepreneurship; workshop: Retention-Driven Growth, Brandstorm)"
+        }
+      ]
+    },
+    "TWFczx5YigchDUSaIXJKqU6lXUrUqXuR": {
+      "inputHash": "2e1de594f592f1a7",
+      "matches": [
+        {
+          "delegateId": "colette-cheung",
+          "rank": 1,
+          "score": 0.304,
+          "why": "Business Strategy & Market Research (interest: Entrepreneurship, Sales; workshop: Own Your Narrative, Retention-Driven Growth; major: Finance)"
+        },
+        {
+          "delegateId": "ciro-wei",
+          "rank": 2,
+          "score": 0.16,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; workshop: Own Your Narrative)"
+        },
+        {
+          "delegateId": "natasha-naidoo",
+          "rank": 3,
+          "score": 0.232,
+          "why": "Business Strategy & Market Research (interest: Entrepreneurship, Sales; workshop: Own Your Narrative, Retention-Driven Growth; major: Finance)"
+        }
+      ]
+    },
+    "Tybt9J98CXx1XOOZhngUvCRQi4NhJZWk": {
+      "inputHash": "e3634dfe09944cbc",
+      "matches": [
+        {
+          "delegateId": "aika-kim",
+          "rank": 1,
+          "score": 0.221,
+          "why": "Product Management / Product Marketing (interest: UI/UX; workshop: Product Innovation Case Challenge)"
+        },
+        {
+          "delegateId": "eleanor-hawkins",
+          "rank": 2,
+          "score": 0.167,
+          "why": "General: Brand Management (interest: Brand Management; workshop: Product Innovation Case Challenge, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "nicholas-chiu",
+          "rank": 3,
+          "score": 0.253,
+          "why": "Brand Management (interest: Brand Management; workshop: Product Innovation Case Challenge, Retention-Driven Growth)"
+        }
+      ]
+    },
+    "UjT6FHUMZpuxc38vFw7Uq0drJ9LcmnyY": {
+      "inputHash": "b28c5988bcc1a4f4",
+      "matches": [
+        {
+          "delegateId": "derek-fukui",
+          "rank": 1,
+          "score": 0.298,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Brandstorm, Product Innovation Case Challenge; major: Marketing)"
+        },
+        {
+          "delegateId": "shirley-mu",
+          "rank": 2,
+          "score": 0.333,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Brandstorm, Product Innovation Case Challenge; major: Marketing)"
+        },
+        {
+          "delegateId": "mia-cheon",
+          "rank": 3,
+          "score": 0.218,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, Brand Management, Digital Marketing; workshop: Brandstorm; major: Marketing)"
+        }
+      ]
+    },
+    "UoGQUr82w4jUAhL0eSOJZO41L55rWnJd": {
+      "inputHash": "e0018fc4647dbe19",
+      "matches": [
+        {
+          "delegateId": "katrina-artes",
+          "rank": 1,
+          "score": 0.158,
+          "why": "Creative, Content & Advertising (interest: UI/UX; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "emily-payne",
+          "rank": 2,
+          "score": 0.129,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales; workshop: Start-Up Marketing)"
+        },
+        {
+          "delegateId": "tim-wong",
+          "rank": 3,
+          "score": 0.209,
+          "why": "Business Strategy & Market Research (interest: Consulting, Sales; workshop: Brandstorm, Start-Up Marketing)"
+        }
+      ]
+    },
+    "UseueAPYGvYqDfPdUximEZjIObbSgyha": {
+      "inputHash": "fae1091a12267f7b",
+      "matches": [
+        {
+          "delegateId": "sarah-chow",
+          "rank": 1,
+          "score": 0.242,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "minnie-parima-tanglertsampa",
+          "rank": 2,
+          "score": 0.167,
+          "why": "General: Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "nikole-hu",
+          "rank": 3,
+          "score": 0.22,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Consulting, Entrepreneurship; workshop: Start-Up Marketing, Brandstorm; major: Marketing)"
+        }
+      ]
+    },
+    "VU9gWcXKZ6D9EbBbqIWvaauvKYiqnmfJ": {
+      "inputHash": "b0c1ad159ad7eff2",
+      "matches": [
+        {
+          "delegateId": "jemma-read",
+          "rank": 1,
+          "score": 0.167,
+          "why": "General: Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship; workshop: Own Your Narrative, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "derek-fukui",
+          "rank": 2,
+          "score": 0.216,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship; workshop: Own Your Narrative, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "malcolm-dennill",
+          "rank": 3,
+          "score": 0.067,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Brand Management; workshop: Own Your Narrative, Start-Up Marketing)"
+        }
+      ]
+    },
+    "WTIn4SZZkfdYbYLM7BPsiKrHXdv5D7If": {
+      "inputHash": "7d98f7a05a305ee6",
+      "matches": [
+        {
+          "delegateId": "zoe-kaede",
+          "rank": 1,
+          "score": 0.179,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Consulting, Sales; workshop: Start-Up Marketing)"
+        },
+        {
+          "delegateId": "paola-del-valle",
+          "rank": 2,
+          "score": 0.208,
+          "why": "Business Strategy & Market Research (interest: Consulting, Digital Marketing, Product Management, Sales; workshop: Start-Up Marketing, Own Your Narrative)"
+        },
+        {
+          "delegateId": "rachel-desmarais",
+          "rank": 3,
+          "score": 0.148,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales; workshop: Own Your Narrative, Start-Up Marketing)"
+        }
+      ]
+    },
+    "WdgQ3KItchnkqU5ZxHB9EvLjsro7QFp4": {
+      "inputHash": "e2f3ce1d0c03197d",
+      "matches": [
+        {
+          "delegateId": "jochen-hsia",
+          "rank": 1,
+          "score": 0.304,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "sarah-kertcher",
+          "rank": 2,
+          "score": 0.186,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing; workshop: Retention-Driven Growth, Brandstorm)"
+        },
+        {
+          "delegateId": "alan-lagunes",
+          "rank": 3,
+          "score": 0.172,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Retention-Driven Growth)"
+        }
+      ]
+    },
+    "XAjy3STb8v4gOIf8eYUA8H8gzwDw81gn": {
+      "inputHash": "259ade763e068478",
+      "matches": [
+        {
+          "delegateId": "aika-kim",
+          "rank": 1,
+          "score": 0.35,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX, Entrepreneurship; major: BUCS)"
+        },
+        {
+          "delegateId": "althea-astudillo",
+          "rank": 2,
+          "score": 0.35,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX, Entrepreneurship; major: BUCS)"
+        },
+        {
+          "delegateId": "aaron-kondolay",
+          "rank": 3,
+          "score": 0.35,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX, Entrepreneurship; major: BUCS)"
+        }
+      ]
+    },
+    "XWwsZNAOUZ0f7gb2UdmjyqfY4BssX8eM": {
+      "inputHash": "b513cc8350e851dc",
+      "matches": [
+        {
+          "delegateId": "christine-wong",
+          "rank": 1,
+          "score": 0.259,
+          "why": "Creative, Content & Advertising (interest: Graphic Design; workshop: Own Your Narrative, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "irene-xu",
+          "rank": 2,
+          "score": 0.154,
+          "why": "Product Management / Product Marketing (interest: Product Management, Entrepreneurship)"
+        },
+        {
+          "delegateId": "vanessa-kwan",
+          "rank": 3,
+          "score": 0.22,
+          "why": "Brand Management (interest: Entrepreneurship, Graphic Design; workshop: Own Your Narrative, Start-Up Marketing; major: Marketing)"
+        }
+      ]
+    },
+    "XrsvevRyM6dFfTsNanarvSkr6HTUfqTm": {
+      "inputHash": "afbedf8a312597a2",
+      "matches": [
+        {
+          "delegateId": "mark-motozono",
+          "rank": 1,
+          "score": 0.26,
+          "why": "Brand Management (interest: Brand Management; workshop: Brandstorm, Retention-Driven Growth; major: Marketing)"
+        },
+        {
+          "delegateId": "jemma-read",
+          "rank": 2,
+          "score": 0.167,
+          "why": "General: Brand Management (interest: Brand Management; workshop: Brandstorm, Retention-Driven Growth; major: Marketing)"
+        },
+        {
+          "delegateId": "tina-liu",
+          "rank": 3,
+          "score": 0.164,
+          "why": "Brand Management (interest: Brand Management; workshop: Brandstorm, Retention-Driven Growth; major: Marketing)"
+        }
+      ]
+    },
+    "Zv72YdadYPGUqDVrsXBbCjdYdKNH2B7o": {
+      "inputHash": "1244b990d7d2f988",
+      "matches": [
+        {
+          "delegateId": "simran-rathi",
+          "rank": 1,
+          "score": 0.412,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management, Sales; workshop: Start-Up Marketing, Own Your Narrative; major: Finance)"
+        },
+        {
+          "delegateId": "natasha-naidoo",
+          "rank": 2,
+          "score": 0.287,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management, Sales; workshop: Start-Up Marketing, Own Your Narrative; major: Finance)"
+        },
+        {
+          "delegateId": "bhavin-punmiya",
+          "rank": 3,
+          "score": 0.412,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management, Sales; workshop: Start-Up Marketing, Own Your Narrative; major: Finance)"
+        }
+      ]
+    },
+    "aDjdhXphX1S3FN0FOCr2468sd3Rdc1Pb": {
+      "inputHash": "6fca4a1b972a5489",
+      "matches": [
+        {
+          "delegateId": "matthew-chiu",
+          "rank": 1,
+          "score": 0.267,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, Digital Marketing)"
+        },
+        {
+          "delegateId": "reina-takadan",
+          "rank": 2,
+          "score": 0.233,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, Digital Marketing)"
+        },
+        {
+          "delegateId": "emma-han",
+          "rank": 3,
+          "score": 0.2,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales)"
+        }
+      ]
+    },
+    "aiRCtVlqGnhZFxLKpbV4XxLhrGAsmPr3": {
+      "inputHash": "c51b30b264de0dcd",
+      "matches": [
+        {
+          "delegateId": "gazal-dhillon",
+          "rank": 1,
+          "score": 0.263,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management; workshop: Start-Up Marketing, Own Your Narrative)"
+        },
+        {
+          "delegateId": "sophia-robertson",
+          "rank": 2,
+          "score": 0.1,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Brand Management; workshop: Own Your Narrative, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "shirley-mu",
+          "rank": 3,
+          "score": 0.246,
+          "why": "Brand Management (interest: Brand Management; workshop: Own Your Narrative, Start-Up Marketing)"
+        }
+      ]
+    },
+    "asgdj0J0pvvKGVVvt3iPxcCbZfbyrTYc": {
+      "inputHash": "06f9d618c7686b9a",
+      "matches": [
+        {
+          "delegateId": "amina-abdrazakova",
+          "rank": 1,
+          "score": 0.167,
+          "why": "General: Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Sales; workshop: Own Your Narrative, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "emma-han",
+          "rank": 2,
+          "score": 0.13,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales; workshop: Own Your Narrative)"
+        },
+        {
+          "delegateId": "matthew-chiu",
+          "rank": 3,
+          "score": 0.193,
+          "why": "Creative, Content & Advertising (interest: Graphic Design; workshop: Own Your Narrative)"
+        }
+      ]
+    },
+    "b80ZFX3AxbA6M5n2zbqPPt5DHVq3MWUA": {
+      "inputHash": "de4d4a07334aebe0",
+      "matches": [
+        {
+          "delegateId": "sarah-kertcher",
+          "rank": 1,
+          "score": 0.23,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Brand Management, Digital Marketing; workshop: Own Your Narrative, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "yulia-breiman",
+          "rank": 2,
+          "score": 0.127,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; workshop: Own Your Narrative, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "reina-takadan",
+          "rank": 3,
+          "score": 0.205,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Brand Management, Digital Marketing; workshop: Own Your Narrative, Start-Up Marketing; major: Marketing)"
+        }
+      ]
+    },
+    "cAfvzcqryCeLMN66drJVpvJkADByuMM4": {
+      "inputHash": "3cbe5b8e6c8d715a",
+      "matches": [
+        {
+          "delegateId": "aaron-kondolay",
+          "rank": 1,
+          "score": 0.25,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX; major: BUCS)"
+        },
+        {
+          "delegateId": "nicole-leung",
+          "rank": 2,
+          "score": 0.206,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing; workshop: Retention-Driven Growth; major: BUCS)"
+        },
+        {
+          "delegateId": "katrina-artes",
+          "rank": 3,
+          "score": 0.116,
+          "why": "Creative, Content & Advertising (interest: UI/UX, Brand Management, Digital Marketing; workshop: Own Your Narrative)"
+        }
+      ]
+    },
+    "cAiQ1QdIecYNbjqxFJFogzelPuZ4MWVM": {
+      "inputHash": "c6291b3fdb5a2803",
+      "matches": [
+        {
+          "delegateId": "newgen-bao",
+          "rank": 1,
+          "score": 0.269,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX, Entrepreneurship; workshop: Product Innovation Case Challenge)"
+        },
+        {
+          "delegateId": "bhavin-punmiya",
+          "rank": 2,
+          "score": 0.392,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Product Management; workshop: Product Innovation Case Challenge, Own Your Narrative; major: Accounting)"
+        },
+        {
+          "delegateId": "akarty-dhesi",
+          "rank": 3,
+          "score": 0.269,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX, Entrepreneurship; workshop: Product Innovation Case Challenge)"
+        }
+      ]
+    },
+    "cD8snDVPkI9a5ORBYbYfYmpq99AugVpy": {
+      "inputHash": "11a72024f8c2bd49",
+      "matches": [
+        {
+          "delegateId": "adi-pradeep",
+          "rank": 1,
+          "score": 0.397,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management; workshop: Brandstorm, Product Innovation Case Challenge; major: Finance)"
+        },
+        {
+          "delegateId": "mark-motozono",
+          "rank": 2,
+          "score": 0.315,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management; workshop: Brandstorm, Product Innovation Case Challenge; major: Finance)"
+        },
+        {
+          "delegateId": "althea-astudillo",
+          "rank": 3,
+          "score": 0.185,
+          "why": "Product Management / Product Marketing (interest: Product Management; workshop: Product Innovation Case Challenge)"
+        }
+      ]
+    },
+    "cj8L2c7ZtoIuekVQPbhrZbUmviAVQ9qI": {
+      "inputHash": "5560c775920f8a63",
+      "matches": [
+        {
+          "delegateId": "natalie-niedzialek",
+          "rank": 1,
+          "score": 0.263,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Brandstorm, Retention-Driven Growth; major: Marketing)"
+        },
+        {
+          "delegateId": "anne-huang",
+          "rank": 2,
+          "score": 0.212,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing; workshop: Retention-Driven Growth, Brandstorm; major: Marketing)"
+        },
+        {
+          "delegateId": "newgen-bao",
+          "rank": 3,
+          "score": 0.125,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX)"
+        }
+      ]
+    },
+    "d0eAydq1LIxSgP98KpYu7q1YbnE9BVdf": {
+      "inputHash": "1f45b4f696b167d3",
+      "matches": [
+        {
+          "delegateId": "gabriella-wan",
+          "rank": 1,
+          "score": 0.288,
+          "why": "Business Strategy & Market Research (interest: Consulting, Digital Marketing, Sales; workshop: Brandstorm, Retention-Driven Growth; major: Finance)"
+        },
+        {
+          "delegateId": "dana-daetwyler",
+          "rank": 2,
+          "score": 0.35,
+          "why": "Business Strategy & Market Research (interest: Consulting, Digital Marketing, Sales; workshop: Brandstorm, Retention-Driven Growth; major: Finance)"
+        },
+        {
+          "delegateId": "paola-del-valle",
+          "rank": 3,
+          "score": 0.225,
+          "why": "Business Strategy & Market Research (interest: Consulting, Digital Marketing, Sales; workshop: Brandstorm, Retention-Driven Growth; major: Finance)"
+        }
+      ]
+    },
+    "dmd49ur94odzQhxX4OduDpFf3Syt66Zo": {
+      "inputHash": "7a611fb7fd717155",
+      "matches": [
+        {
+          "delegateId": "chantal-brioux",
+          "rank": 1,
+          "score": 0.181,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales; workshop: Own Your Narrative, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "irene-xu",
+          "rank": 2,
+          "score": 0.168,
+          "why": "Product Management / Product Marketing (interest: Product Management, Entrepreneurship)"
+        },
+        {
+          "delegateId": "ramsay-locke",
+          "rank": 3,
+          "score": 0.181,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales; workshop: Own Your Narrative, Start-Up Marketing)"
+        }
+      ]
+    },
+    "eVST3ohEicsPg9bgfmBZBSA9VraxWEJU": {
+      "inputHash": "c0531c8ba82f86b4",
+      "matches": [
+        {
+          "delegateId": "dennis-pang",
+          "rank": 1,
+          "score": 0.22,
+          "why": "Business Strategy & Market Research (interest: Entrepreneurship, Digital Marketing, Product Management; workshop: Brandstorm, Start-Up Marketing; major: Entrepreneurship)"
+        },
+        {
+          "delegateId": "tim-wong",
+          "rank": 2,
+          "score": 0.235,
+          "why": "Business Strategy & Market Research (interest: Entrepreneurship, Digital Marketing, Product Management; workshop: Brandstorm, Start-Up Marketing; major: Entrepreneurship)"
+        },
+        {
+          "delegateId": "minnie-parima-tanglertsampa",
+          "rank": 3,
+          "score": 0.167,
+          "why": "General: Business Strategy & Market Research (interest: Entrepreneurship, Digital Marketing, Product Management; workshop: Brandstorm, Start-Up Marketing; major: Entrepreneurship)"
+        }
+      ]
+    },
+    "eX7aUrRbOt5Z28CFY597SP6cZH1196T5": {
+      "inputHash": "9685f63712651cf9",
+      "matches": [
+        {
+          "delegateId": "nikole-hu",
+          "rank": 1,
+          "score": 0.252,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Sales; workshop: Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "ciro-wei",
+          "rank": 2,
+          "score": 0.149,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales; workshop: Own Your Narrative)"
+        },
+        {
+          "delegateId": "sophia-robertson",
+          "rank": 3,
+          "score": 0.149,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales; workshop: Own Your Narrative)"
+        }
+      ]
+    },
+    "eZk0pR30bXyIH1SS7FaPKZxFfQngWaPH": {
+      "inputHash": "6fdf323b0f347852",
+      "matches": [
+        {
+          "delegateId": "justin-lee",
+          "rank": 1,
+          "score": 0.293,
+          "why": "Product Management / Product Marketing (interest: UI/UX, Entrepreneurship; workshop: Product Innovation Case Challenge)"
+        },
+        {
+          "delegateId": "aika-kim",
+          "rank": 2,
+          "score": 0.293,
+          "why": "Product Management / Product Marketing (interest: UI/UX, Entrepreneurship; workshop: Product Innovation Case Challenge)"
+        },
+        {
+          "delegateId": "lynn-vu",
+          "rank": 3,
+          "score": 0.293,
+          "why": "Product Management / Product Marketing (interest: UI/UX, Entrepreneurship; workshop: Product Innovation Case Challenge)"
+        }
+      ]
+    },
+    "eeTd008N0xweeL9tHcT19Nd4beCiNlp1": {
+      "inputHash": "98d5a2511b724b58",
+      "matches": [
+        {
+          "delegateId": "jaime-santos",
+          "rank": 1,
+          "score": 0.266,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Product Management; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "newgen-bao",
+          "rank": 2,
+          "score": 0.254,
+          "why": "Product Management / Product Marketing (interest: Product Management, Entrepreneurship; major: BUCS)"
+        },
+        {
+          "delegateId": "susie-lee",
+          "rank": 3,
+          "score": 0.306,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Product Management; workshop: Brandstorm, Retention-Driven Growth)"
+        }
+      ]
+    },
+    "fIvhBHC1AEKQnFORcyRFu75m9n4wUUAA": {
+      "inputHash": "46e4332e78660bc8",
+      "matches": [
+        {
+          "delegateId": "colette-cheung",
+          "rank": 1,
+          "score": 0.385,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management; workshop: Product Innovation Case Challenge, Retention-Driven Growth; major: Finance)"
+        },
+        {
+          "delegateId": "aaron-kondolay",
+          "rank": 2,
+          "score": 0.312,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX; workshop: Product Innovation Case Challenge)"
+        },
+        {
+          "delegateId": "irene-zhang",
+          "rank": 3,
+          "score": 0.312,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX; workshop: Product Innovation Case Challenge)"
+        }
+      ]
+    },
+    "fQJnu0q3cgc5H1hvc0igKKKaTTCh4Hqo": {
+      "inputHash": "a12d1bb525ef2b1f",
+      "matches": [
+        {
+          "delegateId": "aiur-badmatcyrenov",
+          "rank": 1,
+          "score": 0.25,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing; workshop: Retention-Driven Growth, Brandstorm; major: Marketing)"
+        },
+        {
+          "delegateId": "nicholas-chiu",
+          "rank": 2,
+          "score": 0.308,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Retention-Driven Growth; major: Marketing)"
+        },
+        {
+          "delegateId": "natalie-niedzialek",
+          "rank": 3,
+          "score": 0.238,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Retention-Driven Growth; major: Marketing)"
+        }
+      ]
+    },
+    "g8gVldDRfCwItqCRSSmVZM5NSfubi18L": {
+      "inputHash": "0b14d32e0a9557c0",
+      "matches": [
+        {
+          "delegateId": "nikole-hu",
+          "rank": 1,
+          "score": 0.261,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Entrepreneurship, Sales; workshop: Start-Up Marketing, Brandstorm)"
+        },
+        {
+          "delegateId": "chloe-cadieux",
+          "rank": 2,
+          "score": 0.136,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales; workshop: Start-Up Marketing)"
+        },
+        {
+          "delegateId": "ross-wamboldt",
+          "rank": 3,
+          "score": 0.136,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales; workshop: Start-Up Marketing)"
+        }
+      ]
+    },
+    "gKkaxf85l0WopHojmmPLstzYvLzkwBdg": {
+      "inputHash": "570cc81fd4517bf1",
+      "matches": [
+        {
+          "delegateId": "alan-lagunes",
+          "rank": 1,
+          "score": 0.229,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Own Your Narrative, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "harshit-abichandani",
+          "rank": 2,
+          "score": 0.202,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; workshop: Own Your Narrative, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "alex-balbino",
+          "rank": 3,
+          "score": 0.193,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; workshop: Own Your Narrative, Start-Up Marketing)"
+        }
+      ]
+    },
+    "gRDYJO4efBDTfpyPohgSLVT2CQswX5jg": {
+      "inputHash": "ff884bb4c3724818",
+      "matches": [
+        {
+          "delegateId": "natasha-naidoo",
+          "rank": 1,
+          "score": 0.191,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management, Sales; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "tina-liu",
+          "rank": 2,
+          "score": 0.188,
+          "why": "Brand Management (interest: Brand Management; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "jemma-read",
+          "rank": 3,
+          "score": 0.167,
+          "why": "General: Business Strategy & Market Research (interest: Consulting, Product Management, Sales; workshop: Brandstorm, Retention-Driven Growth)"
+        }
+      ]
+    },
+    "gyeZyyrL0amRmldVdJft7aPGPboLoqaL": {
+      "inputHash": "12055fed76b1bc50",
+      "matches": [
+        {
+          "delegateId": "mia-cheon",
+          "rank": 1,
+          "score": 0.201,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Brand Management, Digital Marketing; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "liam-finn",
+          "rank": 2,
+          "score": 0.156,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship, Graphic Design; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "maddie-brewer",
+          "rank": 3,
+          "score": 0.223,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship, Graphic Design; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        }
+      ]
+    },
+    "iCSunQsTHa75EjZswhkeFYrEJFPLo5J5": {
+      "inputHash": "c9c68be063ca7730",
+      "matches": [
+        {
+          "delegateId": "christine-wong",
+          "rank": 1,
+          "score": 0.245,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, Digital Marketing; workshop: Brandstorm, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "nikole-hu",
+          "rank": 2,
+          "score": 0.203,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing; workshop: Start-Up Marketing, Brandstorm)"
+        },
+        {
+          "delegateId": "irene-zhang",
+          "rank": 3,
+          "score": 0.126,
+          "why": "Product Management / Product Marketing (interest: Product Management)"
+        }
+      ]
+    },
+    "iUUvnO6FRbrm3u9xJ1ZnUE97qt4yTYgb": {
+      "inputHash": "2dfc9346aed04255",
+      "matches": [
+        {
+          "delegateId": "lily-trinh",
+          "rank": 1,
+          "score": 0.277,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Brand Management, Digital Marketing; workshop: Own Your Narrative; major: Marketing)"
+        },
+        {
+          "delegateId": "sarah-chow",
+          "rank": 2,
+          "score": 0.238,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Own Your Narrative, Retention-Driven Growth; major: Marketing)"
+        },
+        {
+          "delegateId": "vickie-wu",
+          "rank": 3,
+          "score": 0.245,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Brand Management, Digital Marketing; workshop: Own Your Narrative; major: Marketing)"
+        }
+      ]
+    },
+    "iteTtjG3tUWHglX9mCeSwREe86mLzOTD": {
+      "inputHash": "32b76b05d344d1d9",
+      "matches": [
+        {
+          "delegateId": "nicole-leung",
+          "rank": 1,
+          "score": 0.287,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Entrepreneurship, Sales; workshop: Retention-Driven Growth; major: Marketing)"
+        },
+        {
+          "delegateId": "emma-han",
+          "rank": 2,
+          "score": 0.121,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales; workshop: Own Your Narrative)"
+        },
+        {
+          "delegateId": "zoe-kaede",
+          "rank": 3,
+          "score": 0.204,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Entrepreneurship, Sales; workshop: Retention-Driven Growth; major: Marketing)"
+        }
+      ]
+    },
+    "kaDQcItnUaPrXOfGMSIZYxYIfZv5URqU": {
+      "inputHash": "a0fd9907bf747242",
+      "matches": [
+        {
+          "delegateId": "shirley-mu",
+          "rank": 1,
+          "score": 0.283,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Own Your Narrative, Product Innovation Case Challenge; major: Marketing)"
+        },
+        {
+          "delegateId": "eleanor-hawkins",
+          "rank": 2,
+          "score": 0.167,
+          "why": "General: Brand Management (interest: Brand Management, Digital Marketing; workshop: Own Your Narrative, Product Innovation Case Challenge; major: Marketing)"
+        },
+        {
+          "delegateId": "bianca-antonio",
+          "rank": 3,
+          "score": 0.238,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Own Your Narrative, Product Innovation Case Challenge; major: Marketing)"
+        }
+      ]
+    },
+    "kx9cBIZKnSkCqg4KUWZRBuIyRi9SYPrV": {
+      "inputHash": "8fa0ba1a4a9e2b15",
+      "matches": [
+        {
+          "delegateId": "mica-lemiski",
+          "rank": 1,
+          "score": 0.247,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, Brand Management, Digital Marketing; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "vickie-wu",
+          "rank": 2,
+          "score": 0.221,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, Brand Management, Digital Marketing; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "derek-fukui",
+          "rank": 3,
+          "score": 0.269,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        }
+      ]
+    },
+    "l2UOxo1OQGYzsCWwk1tPFqU67ZKdPXjR": {
+      "inputHash": "83eea2d1542426c3",
+      "matches": [
+        {
+          "delegateId": "minnie-parima-tanglertsampa",
+          "rank": 1,
+          "score": 0.167,
+          "why": "General: Brand Management (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "vanessa-kwan",
+          "rank": 2,
+          "score": 0.293,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "sarah-kertcher",
+          "rank": 3,
+          "score": 0.199,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing; workshop: Start-Up Marketing, Brandstorm; major: Marketing)"
+        }
+      ]
+    },
+    "mJYEg8fi2WHSYeYDx2VhuSfOoj6t2XBb": {
+      "inputHash": "da5f44ab9e81c5a3",
+      "matches": [
+        {
+          "delegateId": "gabriella-wan",
+          "rank": 1,
+          "score": 0.275,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "sarah-kertcher",
+          "rank": 2,
+          "score": 0.208,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, Brand Management, Digital Marketing; workshop: Brandstorm)"
+        },
+        {
+          "delegateId": "dennis-pang",
+          "rank": 3,
+          "score": 0.238,
+          "why": "Business Strategy & Market Research (interest: Digital Marketing; workshop: Brandstorm, Retention-Driven Growth; major: Economics)"
+        }
+      ]
+    },
+    "n1TTVHNiIVTa0TJevhLvVOe7mhNK2c5y": {
+      "inputHash": "57128b20b382c2e2",
+      "matches": [
+        {
+          "delegateId": "nicholas-chiu",
+          "rank": 1,
+          "score": 0.284,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship; workshop: Brandstorm, Start-Up Marketing; major: Psychology)"
+        },
+        {
+          "delegateId": "reina-takadan",
+          "rank": 2,
+          "score": 0.104,
+          "why": "Creative, Content & Advertising (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "simran-rathi",
+          "rank": 3,
+          "score": 0.263,
+          "why": "Business Strategy & Market Research (interest: Entrepreneurship, Digital Marketing, Product Management, Sales; workshop: Brandstorm, Start-Up Marketing; major: Psychology)"
+        }
+      ]
+    },
+    "npWcP4SGpZf5lo1C9Q2AhZ6m33ImZxGs": {
+      "inputHash": "abc108b27b1795e8",
+      "matches": [
+        {
+          "delegateId": "lynn-vu",
+          "rank": 1,
+          "score": 0.168,
+          "why": "Product Management / Product Marketing (interest: Product Management, Entrepreneurship)"
+        },
+        {
+          "delegateId": "jeffrey-beatty",
+          "rank": 2,
+          "score": 0.297,
+          "why": "Brand Management (interest: Brand Management, Entrepreneurship; workshop: Brandstorm, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "eleanor-hawkins",
+          "rank": 3,
+          "score": 0.167,
+          "why": "General: Brand Management (interest: Brand Management, Entrepreneurship; workshop: Brandstorm, Start-Up Marketing)"
+        }
+      ]
+    },
+    "pq5Qz7k8UDBBbwNefNnudgHDyd38KJno": {
+      "inputHash": "2e82de96d576a740",
+      "matches": [
+        {
+          "delegateId": "jeffrey-beatty",
+          "rank": 1,
+          "score": 0.311,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship; workshop: Own Your Narrative, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "caleb-chang",
+          "rank": 2,
+          "score": 0.242,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Entrepreneurship; workshop: Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "julia-zhou",
+          "rank": 3,
+          "score": 0.189,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship; workshop: Own Your Narrative, Retention-Driven Growth)"
+        }
+      ]
+    },
+    "pxbg2cdJSVgh393ufLqc2cyTdMMpHizc": {
+      "inputHash": "3876db2db55dbd3d",
+      "matches": [
+        {
+          "delegateId": "caleb-chang",
+          "rank": 1,
+          "score": 0.255,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Consulting; workshop: Retention-Driven Growth, Brandstorm; major: Marketing Management)"
+        },
+        {
+          "delegateId": "natalie-niedzialek",
+          "rank": 2,
+          "score": 0.216,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Retention-Driven Growth; major: Marketing Management)"
+        },
+        {
+          "delegateId": "anne-huang",
+          "rank": 3,
+          "score": 0.255,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Consulting; workshop: Retention-Driven Growth, Brandstorm; major: Marketing Management)"
+        }
+      ]
+    },
+    "qAJguaV2yI71lQlTm7etHTDxpgWs1NQE": {
+      "inputHash": "c1da662054686385",
+      "matches": [
+        {
+          "delegateId": "julia-zhou",
+          "rank": 1,
+          "score": 0.236,
+          "why": "Brand Management (interest: Brand Management, Entrepreneurship; workshop: Own Your Narrative, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "harshit-abichandani",
+          "rank": 2,
+          "score": 0.189,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; workshop: Own Your Narrative)"
+        },
+        {
+          "delegateId": "rishil-kishinchandani",
+          "rank": 3,
+          "score": 0.161,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; workshop: Own Your Narrative)"
+        }
+      ]
+    },
+    "qKuaMYVUnWSegCLwj0oo8LcZ9PPbuwIl": {
+      "inputHash": "35c3ad3102f8d4d7",
+      "matches": [
+        {
+          "delegateId": "trang-hoang",
+          "rank": 1,
+          "score": 0.293,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Consulting; workshop: Retention-Driven Growth, Brandstorm; major: Marketing)"
+        },
+        {
+          "delegateId": "bianca-antonio",
+          "rank": 2,
+          "score": 0.245,
+          "why": "Brand Management (interest: Digital Marketing, Graphic Design; workshop: Brandstorm, Retention-Driven Growth; major: Marketing)"
+        },
+        {
+          "delegateId": "jesse-grimaldi",
+          "rank": 3,
+          "score": 0.167,
+          "why": "General: Growth & Digital Marketing (interest: Digital Marketing, Consulting; workshop: Retention-Driven Growth, Brandstorm; major: Marketing)"
+        }
+      ]
+    },
+    "qho2MKahzpkyNfqLfzjBUm5oydXQggTo": {
+      "inputHash": "b7e04214e0b82dc6",
+      "matches": [
+        {
+          "delegateId": "akarty-dhesi",
+          "rank": 1,
+          "score": 0.262,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX, Entrepreneurship; workshop: Product Innovation Case Challenge; major: BUCS)"
+        },
+        {
+          "delegateId": "levi-lu",
+          "rank": 2,
+          "score": 0.229,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX, Entrepreneurship; workshop: Product Innovation Case Challenge; major: BUCS)"
+        },
+        {
+          "delegateId": "irene-xu",
+          "rank": 3,
+          "score": 0.262,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX, Entrepreneurship; workshop: Product Innovation Case Challenge; major: BUCS)"
+        }
+      ]
+    },
+    "rA8yHsdn8QskW3VVxaQqP58cDla29Ugj": {
+      "inputHash": "930cedc07847b73a",
+      "matches": [
+        {
+          "delegateId": "bhavin-punmiya",
+          "rank": 1,
+          "score": 0.43,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management, Sales; workshop: Brandstorm, Start-Up Marketing; major: Economics)"
+        },
+        {
+          "delegateId": "simran-rathi",
+          "rank": 2,
+          "score": 0.43,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management, Sales; workshop: Brandstorm, Start-Up Marketing; major: Economics)"
+        },
+        {
+          "delegateId": "dana-daetwyler",
+          "rank": 3,
+          "score": 0.43,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management, Sales; workshop: Brandstorm, Start-Up Marketing; major: Economics)"
+        }
+      ]
+    },
+    "sRaMq2Mc1ofSlSDzCqWvKDOrNV0qZ2SN": {
+      "inputHash": "9a165529c5ec027a",
+      "matches": [
+        {
+          "delegateId": "adi-pradeep",
+          "rank": 1,
+          "score": 0.313,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship; workshop: Brandstorm, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "mark-motozono",
+          "rank": 2,
+          "score": 0.305,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship; workshop: Brandstorm, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "john-leong",
+          "rank": 3,
+          "score": 0.182,
+          "why": "Brand Management (interest: Brand Management, Entrepreneurship; workshop: Brandstorm, Start-Up Marketing)"
+        }
+      ]
+    },
+    "sY2MHq8AZWzuZ8s2wvJAb7P7c6OMmrqe": {
+      "inputHash": "45fe7547e4e7604f",
+      "matches": [
+        {
+          "delegateId": "jochen-hsia",
+          "rank": 1,
+          "score": 0.267,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Brandstorm, Product Innovation Case Challenge; major: Marketing)"
+        },
+        {
+          "delegateId": "connor-young",
+          "rank": 2,
+          "score": 0.1,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management)"
+        },
+        {
+          "delegateId": "caleb-chang",
+          "rank": 3,
+          "score": 0.198,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Consulting, Sales; workshop: Brandstorm; major: Marketing)"
+        }
+      ]
+    },
+    "tXgqfTdlYEslz6I52loT5TQEzrKF6PeF": {
+      "inputHash": "de5e93f511a3bd75",
+      "matches": [
+        {
+          "delegateId": "irene-xu",
+          "rank": 1,
+          "score": 0.331,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX; major: BTM)"
+        },
+        {
+          "delegateId": "ethan-hansen",
+          "rank": 2,
+          "score": 0.302,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX; major: BTM)"
+        },
+        {
+          "delegateId": "prashant-balaji",
+          "rank": 3,
+          "score": 0.331,
+          "why": "Product Management / Product Marketing (interest: Product Management, UI/UX; major: BTM)"
+        }
+      ]
+    },
+    "uKJaYyTgsbhBCdrwzXKG1xgugIlemCyh": {
+      "inputHash": "397a379920c386c7",
+      "matches": [
+        {
+          "delegateId": "liam-finn",
+          "rank": 1,
+          "score": 0.188,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Own Your Narrative, Product Innovation Case Challenge; major: Marketing)"
+        },
+        {
+          "delegateId": "katrina-artes",
+          "rank": 2,
+          "score": 0.15,
+          "why": "Creative, Content & Advertising (interest: Brand Management, Digital Marketing; workshop: Own Your Narrative; major: Marketing)"
+        },
+        {
+          "delegateId": "minnie-parima-tanglertsampa",
+          "rank": 3,
+          "score": 0.167,
+          "why": "General: Brand Management (interest: Brand Management, Digital Marketing; workshop: Own Your Narrative, Product Innovation Case Challenge; major: Marketing)"
+        }
+      ]
+    },
+    "vkt8DJWDf2xl71XH95Uw85kuGBNMaO5X": {
+      "inputHash": "6d586f1a70aae774",
+      "matches": [
+        {
+          "delegateId": "dana-daetwyler",
+          "rank": 1,
+          "score": 0.35,
+          "why": "Business Strategy & Market Research (interest: Entrepreneurship, Product Management; workshop: Brandstorm, Product Innovation Case Challenge; major: Finance)"
+        },
+        {
+          "delegateId": "prashant-balaji",
+          "rank": 2,
+          "score": 0.213,
+          "why": "Product Management / Product Marketing (interest: Product Management, Entrepreneurship; workshop: Product Innovation Case Challenge)"
+        },
+        {
+          "delegateId": "liam-finn",
+          "rank": 3,
+          "score": 0.148,
+          "why": "Brand Management (interest: Brand Management, Entrepreneurship; workshop: Brandstorm, Product Innovation Case Challenge)"
+        }
+      ]
+    },
+    "vqmCNYSHtPrbcNm6sf8f5Pkll25YpThR": {
+      "inputHash": "923bf30b07f21c7b",
+      "matches": [
+        {
+          "delegateId": "bhavin-punmiya",
+          "rank": 1,
+          "score": 0.387,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Digital Marketing; workshop: Brandstorm, Start-Up Marketing; major: Entrepreneurship)"
+        },
+        {
+          "delegateId": "jaime-santos",
+          "rank": 2,
+          "score": 0.335,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Digital Marketing; workshop: Brandstorm, Start-Up Marketing; major: Entrepreneurship)"
+        },
+        {
+          "delegateId": "matt-retera-robinson",
+          "rank": 3,
+          "score": 0.335,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship, Digital Marketing; workshop: Brandstorm, Start-Up Marketing; major: Entrepreneurship)"
+        }
+      ]
+    },
+    "w0DuklVLhSdeRVORGYPFfy227zqxLOUT": {
+      "inputHash": "e2f75a808abef38b",
+      "matches": [
+        {
+          "delegateId": "lily-trinh",
+          "rank": 1,
+          "score": 0.462,
+          "why": "Creative, Content & Advertising (workshop: Own Your Narrative; major: Architecture)"
+        },
+        {
+          "delegateId": "cheryl-gracielle-lee",
+          "rank": 2,
+          "score": 0.462,
+          "why": "Creative, Content & Advertising (workshop: Own Your Narrative; major: Architecture)"
+        },
+        {
+          "delegateId": "christine-wong",
+          "rank": 3,
+          "score": 0.462,
+          "why": "Creative, Content & Advertising (workshop: Own Your Narrative; major: Architecture)"
+        }
+      ]
+    },
+    "w4RaxEFT3RSgyuU4kbiV2F7yjnx1sKH4": {
+      "inputHash": "750b9856e9e11c8d",
+      "matches": [
+        {
+          "delegateId": "simran-rathi",
+          "rank": 1,
+          "score": 0.422,
+          "why": "Business Strategy & Market Research (interest: Consulting, Digital Marketing, Product Management; workshop: Product Innovation Case Challenge, Start-Up Marketing; major: Economics)"
+        },
+        {
+          "delegateId": "bhavin-punmiya",
+          "rank": 2,
+          "score": 0.422,
+          "why": "Business Strategy & Market Research (interest: Consulting, Digital Marketing, Product Management; workshop: Product Innovation Case Challenge, Start-Up Marketing; major: Economics)"
+        },
+        {
+          "delegateId": "colette-cheung",
+          "rank": 3,
+          "score": 0.422,
+          "why": "Business Strategy & Market Research (interest: Consulting, Digital Marketing, Product Management; workshop: Product Innovation Case Challenge, Start-Up Marketing; major: Economics)"
+        }
+      ]
+    },
+    "wMKdy1QbtTqMrVr7xFPRF6WYlqxB5qeE": {
+      "inputHash": "afbedf8a312597a2",
+      "matches": [
+        {
+          "delegateId": "nicholas-chiu",
+          "rank": 1,
+          "score": 0.29,
+          "why": "Brand Management (interest: Brand Management; workshop: Brandstorm, Retention-Driven Growth; major: Marketing)"
+        },
+        {
+          "delegateId": "matt-retera-robinson",
+          "rank": 2,
+          "score": 0.209,
+          "why": "Business Strategy & Market Research (interest: Consulting, Product Management; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "lynn-vu",
+          "rank": 3,
+          "score": 0.115,
+          "why": "Product Management / Product Marketing (interest: Product Management)"
+        }
+      ]
+    },
+    "wRfQ5TJz82vpOL880po1ekqkPof8DBF1": {
+      "inputHash": "d6aca2f24cdd05d1",
+      "matches": [
+        {
+          "delegateId": "adi-pradeep",
+          "rank": 1,
+          "score": 0.357,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship)"
+        },
+        {
+          "delegateId": "john-leong",
+          "rank": 2,
+          "score": 0.179,
+          "why": "Brand Management (interest: Brand Management, Entrepreneurship)"
+        },
+        {
+          "delegateId": "gabriella-wan",
+          "rank": 3,
+          "score": 0.321,
+          "why": "Business Strategy & Market Research (interest: Consulting, Entrepreneurship)"
+        }
+      ]
+    },
+    "wny6rAoAZ6Y7fsx0tVaBm87b1HhNnbnc": {
+      "inputHash": "b80ba6d8a259a211",
+      "matches": [
+        {
+          "delegateId": "nicholas-chiu",
+          "rank": 1,
+          "score": 0.342,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Brandstorm, Retention-Driven Growth; major: Marketing)"
+        },
+        {
+          "delegateId": "lily-trinh",
+          "rank": 2,
+          "score": 0.267,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, Brand Management, Digital Marketing; workshop: Brandstorm; major: Marketing)"
+        },
+        {
+          "delegateId": "bianca-antonio",
+          "rank": 3,
+          "score": 0.304,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Brandstorm, Retention-Driven Growth; major: Marketing)"
+        }
+      ]
+    },
+    "xEIuDJYCEBLsKEqa9dkSulOQf0QC0L6T": {
+      "inputHash": "999dabf78ecffeb5",
+      "matches": [
+        {
+          "delegateId": "caleb-chang",
+          "rank": 1,
+          "score": 0.265,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Sales; workshop: Retention-Driven Growth, Brandstorm)"
+        },
+        {
+          "delegateId": "ramsay-locke",
+          "rank": 2,
+          "score": 0.147,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management)"
+        },
+        {
+          "delegateId": "zoe-kaede",
+          "rank": 3,
+          "score": 0.206,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Sales; workshop: Retention-Driven Growth, Brandstorm)"
+        }
+      ]
+    },
+    "yB0oG9IsqAmWTetiyAbwoiMNeFEjGnBS": {
+      "inputHash": "12055fed76b1bc50",
+      "matches": [
+        {
+          "delegateId": "bianca-antonio",
+          "rank": 1,
+          "score": 0.223,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship, Graphic Design; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "jesse-grimaldi",
+          "rank": 2,
+          "score": 0.167,
+          "why": "General: Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship, Graphic Design; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "mary-xie",
+          "rank": 3,
+          "score": 0.075,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; workshop: Start-Up Marketing)"
+        }
+      ]
+    },
+    "yUereTVEsfGajpH1RqUti7ijV6sxXuNe": {
+      "inputHash": "4408469a84ecb4e8",
+      "matches": [
+        {
+          "delegateId": "tina-liu",
+          "rank": 1,
+          "score": 0.181,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Entrepreneurship; workshop: Brandstorm, Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "trang-hoang",
+          "rank": 2,
+          "score": 0.216,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing, Entrepreneurship, Sales; workshop: Start-Up Marketing, Brandstorm; major: Marketing)"
+        },
+        {
+          "delegateId": "harshit-abichandani",
+          "rank": 3,
+          "score": 0.102,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; workshop: Start-Up Marketing)"
+        }
+      ]
+    },
+    "zT4kNTY9P3sFWw5rOJQnRFnK7hMxPcNf": {
+      "inputHash": "9daca7cc709fa1f6",
+      "matches": [
+        {
+          "delegateId": "priya-sidhu",
+          "rank": 1,
+          "score": 0.156,
+          "why": "Creative, Content & Advertising (interest: Brand Management, Digital Marketing; workshop: Own Your Narrative, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "connor-young",
+          "rank": 2,
+          "score": 0.153,
+          "why": "Partnerships, Events & Experiential Marketing (interest: Sales, Brand Management; workshop: Own Your Narrative, Start-Up Marketing)"
+        },
+        {
+          "delegateId": "julia-zhou",
+          "rank": 3,
+          "score": 0.18,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing; workshop: Own Your Narrative, Start-Up Marketing)"
+        }
+      ]
+    },
+    "zU0LEIhpSUinrrZpcHXH11SxNDfr8Ubw": {
+      "inputHash": "caf226844c2e1cc7",
+      "matches": [
+        {
+          "delegateId": "levi-lu",
+          "rank": 1,
+          "score": 0.208,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Brandstorm, Retention-Driven Growth)"
+        },
+        {
+          "delegateId": "christine-wong",
+          "rank": 2,
+          "score": 0.23,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, UI/UX, Brand Management, Digital Marketing; workshop: Brandstorm)"
+        },
+        {
+          "delegateId": "maddie-brewer",
+          "rank": 3,
+          "score": 0.25,
+          "why": "Brand Management (interest: Brand Management, Digital Marketing, Graphic Design; workshop: Brandstorm, Retention-Driven Growth)"
+        }
+      ]
+    },
+    "zqhIXTZ7fKvsZTppsjflrGXVkDpbsGgh": {
+      "inputHash": "71ae02c99a6bf74a",
+      "matches": [
+        {
+          "delegateId": "mica-lemiski",
+          "rank": 1,
+          "score": 0.216,
+          "why": "Creative, Content & Advertising (interest: Graphic Design, Digital Marketing; workshop: Start-Up Marketing; major: Marketing)"
+        },
+        {
+          "delegateId": "irene-zhang",
+          "rank": 2,
+          "score": 0.177,
+          "why": "Product Management / Product Marketing (interest: Product Management; workshop: Product Innovation Case Challenge)"
+        },
+        {
+          "delegateId": "caleb-chang",
+          "rank": 3,
+          "score": 0.204,
+          "why": "Growth & Digital Marketing (interest: Digital Marketing; workshop: Start-Up Marketing; major: Marketing)"
+        }
+      ]
+    }
+  }
+}

@@ -5,7 +5,7 @@ import { NEXT_PARAM } from "@/lib/auth/redirect";
 // Optimistic check only: a present cookie may still be expired, which the
 // `(app)` layout catches by verifying the session with mp-backend.
 export function proxy(request: NextRequest) {
-  if (true || hasSessionCookie(request.cookies)) {
+  if (hasSessionCookie(request.cookies)) {
     return NextResponse.next();
   }
 
